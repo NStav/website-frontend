@@ -257,6 +257,7 @@ const NavBarComponent = () => {
               backgroundColor: "#E87461",
               padding: "18px 36px",
               fontSize: "1vw",
+              marginLeft: "0",
             }}
             size="large"
             variant="contained"
@@ -298,6 +299,7 @@ const NavBarComponent = () => {
                 backgroundColor: "#E87461",
                 padding: "18px 36px",
                 fontSize: "1vw",
+                marginLeft: "0",
               }}
               sx={{
                 mx: 8,
