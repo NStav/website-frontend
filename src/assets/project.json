@@ -2,6 +2,31 @@
     "projects":
     [
         {
+            "number":0,
+            "name":"Our Projects",
+            "description":"Redback Operations aims to harness the power of IoT, AI and 3D game worlds to push your exercise routine into the future. We aim to provide a community-driven exercise and well-being gaming experience with competitive elements. By developing cutting-edge technologies and advances in the space of IoT sensors, AI and Game development, Redback Operations seeks to provide users with a fully immersive experience where they can engage with other users both casually and competitively or enjoy individual exercise routines all the while receiving real-time feedback and tips on how to improve their performance and be the best person that they can be. To achieve this goal, Redbackoperations have three main objectives:"
+        },
+        {
+            "number":0,
+            "name":"dot-point-1",
+            "description": "• The development of an engaged and self-sustaining online community"
+        },
+        {
+            "number":0,
+            "name":"dot-point-2",
+            "description": "• The ability to provide real-time performance feedback to users through cutting edge IoT sensors and AI"
+        },
+        {
+            "number":0,
+            "name":"dot-point-3",
+            "description": "• Fully immersive 3D worlds that users can experience from the comfort of their own homes." 
+        },
+        {
+            "number":0,
+            "name":"final_statement",
+            "description": "To be able to realize these objectives, Redback Operations has enlisted the skills and attributes of data scientists and analysts, IoT specialists, Game developers, cyber security specialists, web development, and DevOps experts all guided to success by a core team of project managers."
+        },
+        {
             "number":1,
             "name":"Sun Cycle",
             "description":"The project has the goal of creating a fun, beautiful single player game that users can play with their exercise bike. It’s a post-apocalyptic tribal world where players deliver packages between nomadic tribes on a junked-up pod-bicycle. The overall goal is to have a wide environment to ride around in with various missions available. Completing the missions will be a test of speed/endurance but may also include interesting gameplay choices relating to things such as fragile or perishable packages. By introducing fun gameplay mechanics and a beautiful landscape into their exercise routine, players will have more motivation to exercise on a regular basis."
