@@ -11,7 +11,7 @@ export default function ContactUsComponent() {
     root: {
       "& label.Mui-focused": {
         color: "white",
-        fontSize: 25,
+        fontSize: 20,
       },
       "& .MuiInput-underline:after": {
         borderBottomColor: "yellow",
