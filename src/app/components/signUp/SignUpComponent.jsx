@@ -103,14 +103,14 @@ export default function SignUpComponent() {
             <Grid item xs={12}>
               <Button
                 style={{
-                  borderRadius: 25,
-                  backgroundColor: "#e87461",
+                  borderRadius: 8,
+                  backgroundColor: "#e8574d",
                   color: "#FFFF",
-                  width: "140%",
+                  width: "160%",
                   marginLeft: "10px",
                   marginTop: "20px",
                   padding: "10px 30px",
-                  fontSize: "15px",
+                  fontSize: "20px",
                 }}
                 onClick={() => onClick()}
               >

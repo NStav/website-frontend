@@ -11,6 +11,7 @@ export default function ContactUsComponent() {
     root: {
       "& label.Mui-focused": {
         color: "white",
+        fontSize: 25,
       },
       "& .MuiInput-underline:after": {
         borderBottomColor: "yellow",
@@ -20,7 +21,7 @@ export default function ContactUsComponent() {
           borderColor: "white",
         },
         "&:hover fieldset": {
-          borderColor: "white",
+          borderColor: "red",
         },
         "&.Mui-focused fieldset": {
           borderColor: "yellow",
@@ -66,9 +67,9 @@ export default function ContactUsComponent() {
                 <CssTextField
                   sx={{ "& label": { color: "white" } }}
                   inputProps={{
-                    style: { color: "white" },
+                    style: { color: "white", fontSize: 25 },
                   }}
-                  placeholder="Enter your name"
+                  placeholder="Enter Your Name"
                   label="Name"
                   variant="outlined"
                   fullWidth
@@ -79,11 +80,11 @@ export default function ContactUsComponent() {
                 <CssTextField
                   sx={{ "& label": { color: "white" } }}
                   inputProps={{
-                    style: { color: "white" },
+                    style: { color: "white", fontSize: 25 },
                   }}
                   style={{ borderColor: "#62656A" }}
                   type="email"
-                  placeholder="Enter email"
+                  placeholder="Enter Email"
                   label="Email"
                   variant="outlined"
                   fullWidth
@@ -94,10 +95,10 @@ export default function ContactUsComponent() {
                 <CssTextField
                   sx={{ "& label": { color: "white" } }}
                   inputProps={{
-                    style: { color: "white" },
+                    style: { color: "white", fontSize: 25 },
                   }}
                   type="number"
-                  placeholder="Enter phone number"
+                  placeholder="Enter Phone Number"
                   label="Phone"
                   variant="outlined"
                   fullWidth
@@ -109,12 +110,12 @@ export default function ContactUsComponent() {
                   style={{ color: "white" }}
                   sx={{ "& label": { color: "white" } }}
                   inputProps={{
-                    style: { color: "white" },
+                    style: { color: "white", fontSize: 25 },
                   }}
                   label="Message"
                   multiline
                   rows={4}
-                  placeholder="Type your message here"
+                  placeholder=" Please Type Your Message Here"
                   variant="outlined"
                   fullWidth
                   required
@@ -123,10 +124,14 @@ export default function ContactUsComponent() {
               <Grid item xs={3}>
                 <Button
                   style={{
-                    borderRadius: 0,
-                    backgroundColor: "white",
-                    color: "black",
-                    margin: "5px",
+                    borderRadius: 8,
+                    backgroundColor: "#e8574d",
+                    color: "#FFFF",
+                    width: "160%",
+                    marginLeft: "10px",
+                    marginTop: "20px",
+                    padding: "10px 30px",
+                    fontSize: "20px",
                   }}
                   type="submit"
                   variant="contained"
