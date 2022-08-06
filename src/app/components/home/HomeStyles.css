@@ -10,7 +10,15 @@
     background-color: #380e4a;
     border: none;
 }
+.heading1 {
+    padding-top: 80px;
+    margin-bottom: -30px;
+    padding-right: 180px;
+}
 
+.heading2 {
+    padding-left: 180px;
+}
 .heading-banner {
     background-color: #834c8c;
     height: 480px;
@@ -26,15 +34,7 @@
     font-family: 'Rampart One', cursive;
 }
 
-.heading1 {
-    padding-top: 80px;
-    margin-bottom: -30px;
-    padding-right: 180px;
-}
 
-.heading2 {
-    padding-left: 180px;
-}
 
 .icon-grid {
     font-size: 30px;
@@ -166,6 +166,26 @@ img {
     font-size: 18px;
 }
 
+.mvg-grid h3{
+    font-weight: bold;
+    text-align: center;
+}
+
+.mvg-grid{
+    background-color: white;
+    border-radius: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.mvg-logos{
+    height: 100px;
+    width: auto;
+    display: block;
+    margin: auto;
+}
+
 .user-info {
     display: block;
     margin: auto;
@@ -231,25 +251,6 @@ img {
     margin: auto;
 }
 
-.mvg-grid h3{
-    font-weight: bold;
-    text-align: center;
-}
-
-.mvg-grid{
-    background-color: white;
-    border-radius: 20px;
-    font-family: 'Roboto', sans-serif;
-    font-size: 20px;
-    padding: 20px;
-}
-
-.mvg-logos{
-    height: 100px;
-    width: auto;
-    display: block;
-    margin: auto;
-}
 
 .projects-container{
     width: 1100px;
@@ -302,6 +303,18 @@ img {
     padding-top: 100px;
 }
 
+
+.socials-logo p{
+    margin-top: 10px;
+}
+
+.footer-msg{
+    color: white;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 0;
+    padding-bottom: 40px;
+}
 .footer-logo{
     width: 250px;
     height: auto;
@@ -323,17 +336,6 @@ img {
     color: white;
 }
 
-.socials-logo p{
-    margin-top: 10px;
-}
-
-.footer-msg{
-    color: white;
-    text-align: center;
-    margin-top: 80px;
-    margin-bottom: 0;
-    padding-bottom: 40px;
-}
 
 @media only screen and (max-width: 1200px) {
     .icon-grid{

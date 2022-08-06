@@ -19,5 +19,29 @@ export default function Banner() {
             </button>
           </div>
       </div>
+      
   )
-}
+      updateState(e) {
+        this.setState({data: e.target.value});
+      }
+
+      render() ;{
+
+        var myStyle = {
+          padding: 30,
+          color: "black",
+          display: "block",
+          marginTop: 10
+
+        }
+
+          return (
+            <div style= {myStyle}>
+              <h1>{this.state.header}</h1>
+                <input type = "text" value = {this.state.data} 
+                  onChange = {this.updateState} />
+                <h4>{this.state.data}</h4>
+            </div>
+          );
+      }
+    }
