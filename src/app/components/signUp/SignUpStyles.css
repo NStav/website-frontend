@@ -1,9 +1,16 @@
     .Signup {
     text-align: center !important;
-
+    padding-top: 40px;
     }
 
-  
+    .Signup h2{
+
+        margin-left: "60px";
+        color: whitesmoke;
+        padding-left: 100px;
+    }
+
+    
     .Signup-header {
     min-height: 100vh;
     display: flex;
@@ -16,17 +23,23 @@
 
     .signUpInputs {
         padding-bottom: 20px;
+    
     }
 
      .Signup-input{
-        /* display: block; */
+        display: block; 
         width:140%;
-        background-color:white;
+        background-color:whitesmoke;
         padding: .5rem .8rem .5rem .8rem;
-        border:0;
-        border-radius: 5px; 
-        font-size: 15px;
-        background-color:"white"
+        border: 0px;
+        border-radius: 15px; 
+    }
+
+    .Signup-input:hover{
+
+       background-color: pink;
+       color: black;
+
     }
     
     .Signuph2{
@@ -36,3 +49,37 @@
     .Signup-textarea{
         height: 15vh;
     }
+
+    .Signup button{
+
+        border-radius: 25;
+        background-color: #e87461;
+        color: "#FFFF";
+        width: 200%;
+        margin-left: 10px;
+        margin-top: 20px;
+        padding: "10px 30px";
+        font-size: "15px";
+        color: white;
+        font-weight: bold;
+    }
+
+    .Signup button:hover {
+
+        background-color: purple;
+    }
+
+
+    /* .Signup button{
+
+        border-radius: 25;
+        background-color: #e87461;
+        color: "#FFFF";
+        width: 140%;
+        margin-left: 10px;
+        margin-top: 20px;
+        padding: "10px 30px";
+        font-size: "15px";
+        color: white;
+        font-weight: bold;
+    }*/

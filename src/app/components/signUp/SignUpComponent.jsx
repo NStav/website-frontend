@@ -43,10 +43,6 @@ export default function SignUpComponent() {
           >
             <h2
               className="Signuph2"
-              style={{
-                marginLeft: "60px",
-                color: "#FFFF",
-              }}
             >
               RedBack Sign Up
             </h2>
@@ -88,6 +84,7 @@ export default function SignUpComponent() {
                 value={email}
                 type="email"
                 placeholder="email"
+                
                 onChange={(e) => setEmail(e.target.value)}
               ></TextField>
             </Grid>
@@ -102,16 +99,6 @@ export default function SignUpComponent() {
             </Grid>
             <Grid item xs={12}>
               <Button
-                style={{
-                  borderRadius: 25,
-                  backgroundColor: "#e87461",
-                  color: "#FFFF",
-                  width: "140%",
-                  marginLeft: "10px",
-                  marginTop: "20px",
-                  padding: "10px 30px",
-                  fontSize: "15px",
-                }}
                 onClick={() => onClick()}
               >
                 Submit
