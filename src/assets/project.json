@@ -100,5 +100,35 @@
             "trimester": "T1",
             "year":"2022"
         }
+    ],
+    "about":
+    [
+        {
+            "number": 1,
+            "description": "Redback Operations builds cutting-edge technologies for connected health, fitness and sport to enable safe smart exercise. It is focused on providing a community-driven exercise and well-being gaming experience with competitive elements.",
+            "img": "biking.png"
+        },
+        {
+            "number": 2,
+            "description": "By developing cutting-edge technologies and advances in the space of IoT sensors, AI and Game development, Redback Operations seeks to provide users with a fully immersive experience where they can engage with other users both casually and competitively or enjoy individual exercise routines all the while receiving real-time feedback and tips on how to improve their performance and be the best person that they can be.",
+            "img": "deadlift.png"
+        },
+        {
+            "number": 3,
+            "description": "We believe in enabling safe smart exercise through connecting health, fitness and sport. To achieve this goal, Redback operations work to: • Develop an engaged and self-sustaining online community • Provide real-time performance feedback to users through cutting edge IoT sensors and AI • Provide fully immersive 3D worlds that users can experience from the comfort of their own homes. ",
+            "img": "gym.png"
+        }
+    ],
+    "aboutFooter":
+    [
+        {
+            "number": 1,
+            "description": "Join us today and enjoy a fully immersive experience where you will enjoy individual exercise routines all the time while receiving real-time feedback and tips on how to improve their performance. Share your exercise with our community and engage with other users both casually and competitively."
+        },
+        {
+            "number": 2,
+            "description": "Act now and be the best person you can be."
+        }
+
     ]
 }
