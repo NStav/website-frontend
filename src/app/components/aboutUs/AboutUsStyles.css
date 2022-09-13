@@ -6,22 +6,44 @@
 .about-us-container {
     width: 100%;
     margin: auto;
-    display: grid;
-    grid-template-columns: repeat(2, auto);
-    grid-template-rows: repeat(3, auto);
-    background-color: #e87461;
+    border-radius: 59px;
+    display: grid; 
 }
 
+.about-us-container-1{
+    width: 96%;
+    margin: auto;
+    display:grid;
+    border-radius: 59px;
+    margin-bottom: 32px;
+    background-color: #e87461;
+    grid-template-columns: repeat(2, 50%);
+}
+
+.about-us-img{
+    border-top-right-radius: 59px;
+    border-bottom-right-radius: 59px;
+}
+
+.about-us-img1{
+    border-top-left-radius: 59px;
+    border-bottom-left-radius: 59px;
+}
 
 .about-us-banner-img {
     position: relative;
-    width: 100%;
+    width: 96%;
     height: auto;
+    border-radius: 59px;
+    margin-left: 32px;
+    margin-right: 39px;
+    margin-bottom: 39px;
 }
 
 .about-us-title{
     position: absolute;
     text-align: center;
+    margin-top: 50px;
     color: white;
     top: 50%;
     left: 50%;
