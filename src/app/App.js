@@ -11,7 +11,7 @@ import OurTeamComponent from "./components/ourTeam/OurTeamComponent";
 import ContactUsComponent from "./components/contactUs/ContactUsComponent";
 import SignUpComponent from "./components/signUp/SignUpComponent";
 import GlobalStateProvider from "./stores/GlobalStateProvider";
-
+import Running from './components/Activities/Running';
 
 function App() {
   return (
@@ -26,6 +26,9 @@ function App() {
         <Route path="/ourProject" component={OurProjectComponent} />
         <Route path="/contactUs" component={ContactUsComponent} />
         <Route path="/signUp" component={SignUpComponent} />
+        <Route path="/running" >
+          <Running/>
+        </Route>
       </Grid>
     </GlobalStateProvider>
   );

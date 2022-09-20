@@ -157,7 +157,7 @@ img {
     color: #e87461;
     width: 300px;
     vertical-align: text-top;
-    padding-bottom: 50px;
+    padding-bottom: 0px;
 }
 
 .grid-students p {
