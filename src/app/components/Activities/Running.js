@@ -1,5 +1,7 @@
 
 import { Paper, Stack, Typography } from "@mui/material";
+import { Grid } from "@mui/material" ; 
+import VideoPlayer from "react-video-js-player"; 
 
 export const  Running = ()=>{
     return(
@@ -14,8 +16,10 @@ export const  Running = ()=>{
           </Paper>            
         </div>
     )
-
 }
+
+
+
 
 
 
