@@ -5,6 +5,8 @@ import Button from "@mui/material/Button";
 import { alpha, styled } from "@mui/material/styles";
 import agent from "../../proxy/userService";
 import Grid from "@mui/material/Grid";
+import background from "./img/1.jpg";
+import SignUpPageFooter from "./SignUpPageFooter";
 
 export default function SignUpComponent() {
   const [username, setUsername] = useState("");
@@ -32,8 +34,9 @@ export default function SignUpComponent() {
   }
   return (
     <div className="Signup">
+      <img className="signup-component-img" src={background}></img>
       {toggle ? (
-        <div className="Signup">
+        <div className="Signup-component">
           <Grid
             container
             spacing={3}
@@ -46,6 +49,7 @@ export default function SignUpComponent() {
               style={{
                 marginLeft: "60px",
                 color: "#FFFF",
+                backgroundImage: "url(${background})",
               }}
             >
               RedBack Sign Up
@@ -122,6 +126,7 @@ export default function SignUpComponent() {
       ) : (
         <h1>User sucessfully created</h1>
       )}
+      <SignUpPageFooter />
     </div>
   );
 }

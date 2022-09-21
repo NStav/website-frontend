@@ -8,8 +8,8 @@ import { Link } from "react-router-dom";
 import { useHistory } from "react-router-dom";
 import React, { useState, useEffect, useContext } from "react";
 import Context from "../../stores/context";
-
-import "./LoginStyles.css";
+import background from "./img/1.jpg";
+import LogInPageFooter from "./LogInPageFooter";
 
 export default function LoginComponent(props) {
   const { globalState, globalDispatch } = useContext(Context);
@@ -33,7 +33,8 @@ export default function LoginComponent(props) {
 
   return (
     <div className="LoginComponent">
-      <div style={{ padding: 30 }}>
+      <img className="login-component-img" src={background}></img>
+      <div className="login-component" style={{ padding: 30 }}>
         <Grid
           container
           spacing={3}
@@ -43,11 +44,12 @@ export default function LoginComponent(props) {
         >
           <h1
             style={{
-              marginLeft: "60px",
+              marginLeft: "100px",
               color: "#FFFF",
+              backgroundImage: "url(${background})",
             }}
           >
-            RedBack Login
+            Redback Login
           </h1>
           <Grid item xs={12}>
             <TextField
@@ -77,10 +79,10 @@ export default function LoginComponent(props) {
                 borderRadius: 8,
                 backgroundColor: "#e8574d",
                 color: "#FFFF",
-                width: "160%",
-                marginLeft: "10px",
+                width: "180%",
+                marginLeft: "15px",
                 marginTop: "20px",
-                padding: "10px 30px",
+                padding: "10px 10px",
                 fontSize: "20px",
               }}
               type="submit"
@@ -95,27 +97,36 @@ export default function LoginComponent(props) {
           <Grid item xs={12}>
             <div
               style={{
-                marginLeft: "40px",
-
+                borderRadius: 8,
+                backgroundColor: "#e8574d",
                 color: "#FFFF",
+                width: "260%",
+                marginTop: "20px",
+                padding: "10px 5px",
+                fontSize: "20px",
               }}
-              className="createprofile"
+              className="SignUp"
+              variant="contained"
+              color="primary"
+              fullWidth
             >
               {" "}
               <Link
                 style={{
-                  marginLeft: "40px",
+                  borderRadius: 8,
+                  backgroundColor: "#e8574d",
                   color: "#FFFF",
                 }}
                 to={"./signUp"}
               >
                 {" "}
-                Create a profile{" "}
+                SignUp{" "}
               </Link>
             </div>
           </Grid>
         </Grid>
       </div>
+      <LogInPageFooter />
     </div>
   );
 }
