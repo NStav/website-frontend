@@ -6,6 +6,7 @@ import HomepageComponent from "./components/home/HomeComponent";
 import NavBarComponent from "./shared/components/NavBarComponent";
 import AboutUsComponent from "./components/aboutUs/AboutUsComponent";
 import OurProjectComponent from "./components/ourProject/OurProjectComponent";
+import TutorialComponent from "./components/tutorial/TutorialComponent";
 import LoginComponent from "./components/login/LoginComponent";
 import OurTeamComponent from "./components/ourTeam/OurTeamComponent";
 import ContactUsComponent from "./components/contactUs/ContactUsComponent";
@@ -26,6 +27,7 @@ function App() {
         <Route path="/ourProject" component={OurProjectComponent} />
         <Route path="/contactUs" component={ContactUsComponent} />
         <Route path="/signUp" component={SignUpComponent} />
+        <Route path="/tutorial" component={TutorialComponent} />
       </Grid>
     </GlobalStateProvider>
   );
