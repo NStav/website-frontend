@@ -214,7 +214,7 @@ const NavBarComponent = () => {
             component={NavLink}
             to="/tutorial"
           >
-            About Us
+            Tutorial
           </Button>
           <Button
             style={{

@@ -44,7 +44,7 @@ export default function TutorialComponent() {
       </div>
 
     </div>
-       <p className="faq">
+       <p>
        <h3>FAQ</h3>
        </p>
     <p className="tutorial-footer">
