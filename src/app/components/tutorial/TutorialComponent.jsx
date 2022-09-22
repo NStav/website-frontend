@@ -16,9 +16,9 @@ export default function TutorialComponent() {
       <div className="tutorial-container-1">
         <p>
         <h3>BECOME A MEMBER</h3>
-        Lorem Ipsum is simply dummy text of the printing and
-         typesetting industry. Lorem Ipsum has been the industry's standard dummy 
-        text ever since the 1500s, when an unknown printer took a galley of type and
+        Roll through small artisan towns, fill your 
+        bottles from waterfalls  cascading on the side of the road (yes its safe!), climb the incredibly steep winding 
+        jungle roads and descend through the clouds back to town. This is what adventure feels like on two wheels.
         </p>
         <img src={deadlift} className="tutorial-img1"></img>
       </div>
@@ -27,18 +27,17 @@ export default function TutorialComponent() {
         <img src={gym} className="tutorial-img"></img>
         <p>
         <h3>JOIN THE PROJECT</h3>
-        Lorem Ipsum is simply dummy text of the printing and
-         typesetting industry. Lorem Ipsum has been the industry's standard dummy 
-        text ever since the 1500s, when an unknown printer took a galley of type and
+        Getting back to the true you. It can be that simple. 
+        Yoga offers up a way for us to see a world that is working for you instead of against you. 
         </p>
       </div>
 
       <div className="tutorial-container-1">
         <p>
         <h3>BUY THE PRODUCT</h3>
-        Lorem Ipsum is simply dummy text of the printing and
-         typesetting industry. Lorem Ipsum has been the industry's standard dummy 
-        text ever since the 1500s, when an unknown printer took a galley of type and
+        Roll through small artisan towns, fill your 
+        bottles from waterfalls  cascading on the side of the road (yes its safe!), climb the incredibly steep winding 
+        jungle roads and descend through the clouds back to town. This is what adventure feels like on two wheels.
         </p>
         <img src={biking} className="tutorial-img"></img>
       </div>
@@ -49,9 +48,9 @@ export default function TutorialComponent() {
        </p>
     <p className="tutorial-footer">
        <h4>Title 1:XXXXXXX</h4>
-        Lorem Ipsum is simply dummy text of the printing and
-         typesetting industry. Lorem Ipsum has been the industry's standard dummy 
-        text ever since the 1500s, when an unknown printer took a galley of type and
+       Roll through small artisan towns, fill your 
+        bottles from waterfalls  cascading on the side of the road (yes its safe!), climb the incredibly steep winding 
+        jungle roads and descend through the clouds back to town. This is what adventure feels like on two wheels.
         <h4>Title 1:XXXXXXX</h4>
         <h4>Title 1:XXXXXXX</h4>
         <h4>Title 1:XXXXXXX</h4>
