@@ -12,9 +12,13 @@
 }
 
 .heading-banner {
-    background-color: #834c8c;
-    height: 480px;
+    background:linear-gradient(rgba(0, 0, 0, 0.5),rgba(56, 56, 56, 0.5) 50%), url(./img/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 55%;
     width: 100%;
+    min-height: 440px;
 }
 
 .heading1, .heading2 {
@@ -22,8 +26,8 @@
     text-transform: uppercase;
     text-align: center;
     color: white;
-    text-shadow: white;
-    font-family: 'Rampart One', cursive;
+    text-shadow: black;
+    font-family: 'Veranda', sans-serif;
 }
 
 .heading1 {
@@ -349,7 +353,7 @@ img {
         height: auto;
         justify-content: center;
         grid-template-rows: repeat(4, auto);
-        grid-template-columns: repeat(1,auto);
+        grid-template-columns: repeat(4,auto);
         /* grid template columns adjusted to not have */
     }
 } 

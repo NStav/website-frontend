@@ -12,6 +12,7 @@ import Button from "@mui/material/Button";
 import MenuItem from "@mui/material/MenuItem";
 import image from "../../../../src/assets/logo-redback.png";
 import { useHistory } from "react-router-dom";
+import navbarstyle from "./NavBarComponent.css"
 
 const NavBarComponent = () => {
   const { globalState, globalDispatch } = useContext(Context);
@@ -185,12 +186,7 @@ const NavBarComponent = () => {
         ></Typography>
         <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
           <Button
-            style={{
-              borderRadius: 10,
-              backgroundColor: "#E87461",
-              padding: "18px 36px",
-              fontSize: "1vw",
-            }}
+            className="navbarstyle"
             variant="contained"
             onClick={handleCloseNavMenu}
             sx={{ mx: 8, color: "white", display: "block", marginLeft: "" }}
@@ -201,12 +197,7 @@ const NavBarComponent = () => {
             Home
           </Button>
           <Button
-            style={{
-              borderRadius: 10,
-              backgroundColor: "#E87461",
-              padding: "18px 36px",
-              fontSize: "1vw",
-            }}
+            className="navbarstyle"
             variant="contained"
             onClick={handleCloseNavMenu}
             sx={{ mx: 8, color: "white", display: "block", marginLeft: "" }}
@@ -218,12 +209,7 @@ const NavBarComponent = () => {
           </Button>
 
           <Button
-            style={{
-              borderRadius: 10,
-              backgroundColor: "#E87461",
-              padding: "18px 36px",
-              fontSize: "1vw",
-            }}
+            className="navbarstyle"
             variant="contained"
             onClick={handleCloseNavMenu}
             sx={{ mx: 8, color: "white", display: "block", marginLeft: "" }}
@@ -235,12 +221,7 @@ const NavBarComponent = () => {
           </Button>
 
           <Button
-            style={{
-              borderRadius: 10,
-              backgroundColor: "#E87461",
-              padding: "18px 36px",
-              fontSize: "1vw",
-            }}
+            className="navbarstyle"
             variant="contained"
             onClick={handleCloseNavMenu}
             sx={{ mx: 8, color: "white", display: "block", marginLeft: "" }}
@@ -252,12 +233,7 @@ const NavBarComponent = () => {
           </Button>
 
           <Button
-            style={{
-              borderRadius: 10,
-              backgroundColor: "#E87461",
-              padding: "18px 36px",
-              fontSize: "1vw",
-            }}
+            className="navbarstyle"
             size="large"
             variant="contained"
             onClick={handleCloseNavMenu}
@@ -272,12 +248,7 @@ const NavBarComponent = () => {
           {globalState.isLoggedIn ? (
             <Button
               variant="contained"
-              style={{
-                borderRadius: 10,
-                backgroundColor: "#E87461",
-                padding: "18px 36px",
-                fontSize: "1vw",
-              }}
+              className = "navbarstyle"
               sx={{
                 mx: 8,
                 color: "white",
@@ -293,12 +264,7 @@ const NavBarComponent = () => {
           ) : (
             <Button
               variant="contained"
-              style={{
-                borderRadius: 10,
-                backgroundColor: "#E87461",
-                padding: "18px 36px",
-                fontSize: "1vw",
-              }}
+              className ="navbarstyle"
               sx={{
                 mx: 8,
                 color: "white",
