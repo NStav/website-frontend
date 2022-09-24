@@ -234,7 +234,7 @@ const NavBarComponent = () => {
 
           <Button
             className="navbarstyle"
-            size="large"
+            //size="large"
             variant="contained"
             onClick={handleCloseNavMenu}
             sx={{ mx: 8, color: "white", display: "block" }}
