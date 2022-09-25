@@ -11,7 +11,7 @@ export default function OurProjectComponent() {
 			<div className="Content">
 				<div className="InfoContent">
 				<h1>Our Projects</h1>
-				<p>
+				<p className="c-text">
 					Redback Operations aims to harness the power of IoT, AI and 3D game
 					worlds to push your exercise routine into the future. We aim to
 					provide a community-driven exercise and well-being gaming experience
@@ -33,7 +33,7 @@ export default function OurProjectComponent() {
 			<div className="Content1">
 			    <div className="Img2"></div>
 				<div className="ProjectDetail1">
-				<p>
+				<p className="c-text">
 					• The development of an engaged and self-sustaining online community{" "}
 					<br></br>
 					<br></br>• The ability to provide real-time performance feedback to
@@ -48,6 +48,7 @@ export default function OurProjectComponent() {
 					development, and DevOps experts all guided to success by a core team
 					of project managers.
 				</p>
+				
 			</div>
 			</div>
 			
