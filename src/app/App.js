@@ -12,7 +12,7 @@ import ContactUsComponent from "./components/contactUs/ContactUsComponent";
 import SignUpComponent from "./components/signUp/SignUpComponent";
 import GlobalStateProvider from "./stores/GlobalStateProvider";
 import Running from './components/Activities/Running';
-
+import Tutorial from './components/Activities/Tutorial';
 function App() {
   return (
     <GlobalStateProvider>
@@ -29,6 +29,9 @@ function App() {
         <Route path="/running" >
           <Running/>
         </Route>
+        <Route path="/tutorial">
+          <Tutorial/>
+           </Route>
       </Grid>
     </GlobalStateProvider>
   );

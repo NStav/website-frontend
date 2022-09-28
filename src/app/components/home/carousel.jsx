@@ -5,7 +5,12 @@ import running from "./img/Running.png"
 import yoga from "./img/Yoga.png"
 import esports from "./img/E-Sports.png"
 import "bootstrap/dist/css/bootstrap.css";
+import tutorial from "./img/tutorial.png"; 
+
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+
+
+
 
 
 
@@ -34,6 +39,10 @@ export default function Carousell() {
         <Link to="">
           <div className="grid-object"><img src={esports} /><p>E-Sports</p></div>
         </Link>
+        <Link to="/tutorial"> 
+        <div className="grid-object"><img src={tutorial} /><p> Tutorial</p></div> 
+        </Link>
+        
       </div>
     </div>
   );
