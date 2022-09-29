@@ -4,7 +4,12 @@ import { makeStyles } from '@mui/styles';
 import { Paper, Stack } from '@mui/material';
 import "./Tutorial.css";
 import tutorial1 from "./img/tutorial1.png";
-
+import tutorial2 from "./img/tutorial2.png";
+import tutorial3 from "./img/tutorial3.png";
+import tutorial4 from "./img/tutorial4.png";
+import tutorial5 from "./img/tutorial5.png";
+import tutorial6 from "./img/tutorial6.png";
+import games1 from "./img/games1.png";
 
 
 const useStyles = makeStyles(() => ({
@@ -55,36 +60,36 @@ export const Tutorial = () => {
 
         }}>
           <Paper sx={{borderRadius:'15px'}}>
-            <img src={tutorial1} alt="tutorial1" style={{ width: '100%', height: '380px' }} />
+            <img src={tutorial1} alt="tutorial1" style={{ width: '100%', height: '380px', fontStyle:'Roboto',}} />
             <h2>Workout Name</h2>
             <Typography> Nam in magna non erat consectetur vulputate ut sit amet diam. Etiam lacinia orci erat, id cursus elit sodales fringilla.</Typography>
           </Paper>
           <Paper sx={{borderRadius:'15px'}}>
-            <img src={tutorial1} alt="tutorial1" style={{ width: '100%', height: '380px' }} />
+            <img src={tutorial2} alt="tutorial1" style={{ width: '100%', height: '380px' }} />
             <h2>Workout Name</h2>
             <Typography> Nam in magna non erat consectetur vulputate ut sit amet diam. Etiam lacinia orci erat, id cursus elit sodales fringilla.</Typography>
           </Paper>
           <Paper sx={{borderRadius:'15px'}}>
           
-            <img src={tutorial1} alt="tutorial1" style={{ width: '100%', height: '380px' }} />
+            <img src={tutorial3} alt="tutorial1" style={{ width: '100%', height: '380px' }} />
             <h2>Workout Name</h2>
             <Typography> Nam in magna non erat consectetur vulputate ut sit amet diam. Etiam lacinia orci erat, id cursus elit sodales fringilla.</Typography>
           </Paper >
           <Paper sx={{borderRadius:'15px'}}>
           
-            <img src={tutorial1} alt="tutorial1" style={{ width: '380px', height: '380px' }} />
+            <img src={tutorial4} alt="tutorial1" style={{ width: '380px', height: '380px' }} />
             <h2>Workout Name </h2>
             <Typography> Nam in magna non erat consectetur vulputate ut sit amet diam. Etiam lacinia orci erat, id cursus elit sodales fringilla.</Typography>
           </Paper>
           <Paper sx={{borderRadius:'15px'}}>
           
-            <img src={tutorial1} alt="tutorial1" style={{ width: '380px', height: '380px' }} />
+            <img src={tutorial5} alt="tutorial1" style={{ width: '380px', height: '380px' }} />
             <h2>Workout Name </h2>
             <Typography> Nam in magna non erat consectetur vulputate ut sit amet diam. Etiam lacinia orci erat, id cursus elit sodales fringilla.</Typography>
           </Paper>
           <Paper sx={{borderRadius:'15px'}}>
           
-            <img src={tutorial1} alt="tutorial1" style={{ width: '380px', height: '380px' }} />
+            <img src={tutorial6} alt="tutorial1" style={{ width: '380px', height: '380px' }} />
             <h2>Workout Name </h2>
             <Typography> Nam in magna non erat consectetur vulputate ut sit amet diam. Etiam lacinia orci erat, id cursus elit sodales fringilla.</Typography>
           </Paper>
@@ -205,7 +210,7 @@ export const Tutorial = () => {
 
         }}>
           <Paper sx={{borderRadius:'15px'}}>
-            <img src={tutorial1} alt="tutorial1" style={{ width: '100%', height: '380px' }} />
+            <img src={games1} alt="tutorial1" style={{ width: '100%', height: '380px' }} />
             
             <Typography> Nam in magna non erat consectetur vulputate ut sit amet diam. Etiam lacinia orci erat, id cursus elit sodales fringilla.</Typography>
           </Paper>
