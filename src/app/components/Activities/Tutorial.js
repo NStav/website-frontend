@@ -1,53 +1,236 @@
 import React from "react";
 import Typography from '@mui/material/Typography';
 import { makeStyles } from '@mui/styles';
-import { getListItemSecondaryActionClassesUtilityClass, Paper,Stack} from '@mui/material'; 
+import { Paper, Stack } from '@mui/material';
 import "./Tutorial.css";
+import tutorial1 from "./img/tutorial1.png";
 
 
 
 const useStyles = makeStyles(() => ({
-  paper: {
-    background: '#5A226D',
 
-  },
-  paper2: {
-    marginTop: '82px',
-    marginRight: '',
-    marginLeft: '',
-    height: '280px',
-    width: '280px',
-    
-
-  },
+ 
 
 }))
-
 
 
 export const Tutorial = () => {
   return (
     <div>
-      //Stack 1 for workout 
-      <Paper><Typography id="context_paper_tutorial">How to run confidently when you're just starting out </Typography></Paper>
+
+      <h1 id="page_title"> Tutorials </h1>
       <Paper sx={{
         background: '#9CC3C6',
-        height:"1260px",
-        width:"100%",
-        marginTop:'270px',
-        
+        height: "1260px",
+        width: "100%",
+        marginTop: '120px',
+        marginLeft: 'auto',
+        marginRight: 'auto',
+        justifyContent: 'center',
+        backgroundColor: '#9CC3C6',
+        textAlign: 'center',
+        fontSize: '50px',
+        paddingTop: '30px',
+        alignItems: 'center',
+        borderRadius:'15px',
+
       }}>
-        <Stack sx={{ 
-          display:'grid',
-          gridTemplateColumns:'repeat(3,2fr)', 
-          width: '300px', 
-          backgroundColor:'red', 
-          gap:'50px', 
+        <Typography sx={{ margin: 'auto', alignItems: 'center' }}>
+          <h1>WORKOUTS</h1>
+        </Typography>
+        <Stack sx={{
+          display: 'grid',
+          gridTemplateColumns: 'repeat(3,2fr)',
+          width: '300px',
+          marginTop: '30px',
+          paddingBottom: '100px',
+          gap: '50px',
+          paddingRight: '70px',
+          marginLeft: 'auto',
+          marginRight: 'auto',
+          justifyContent: "center",
+          alignItems: "center",
 
 
-        }}> 
-        <Paper className={classes.paper2}><img src id/></Paper>
+
+        }}>
+          <Paper sx={{borderRadius:'15px'}}>
+            <img src={tutorial1} alt="tutorial1" style={{ width: '100%', height: '380px' }} />
+            <h2>Workout Name</h2>
+            <Typography> Nam in magna non erat consectetur vulputate ut sit amet diam. Etiam lacinia orci erat, id cursus elit sodales fringilla.</Typography>
+          </Paper>
+          <Paper sx={{borderRadius:'15px'}}>
+            <img src={tutorial1} alt="tutorial1" style={{ width: '100%', height: '380px' }} />
+            <h2>Workout Name</h2>
+            <Typography> Nam in magna non erat consectetur vulputate ut sit amet diam. Etiam lacinia orci erat, id cursus elit sodales fringilla.</Typography>
+          </Paper>
+          <Paper sx={{borderRadius:'15px'}}>
+          
+            <img src={tutorial1} alt="tutorial1" style={{ width: '100%', height: '380px' }} />
+            <h2>Workout Name</h2>
+            <Typography> Nam in magna non erat consectetur vulputate ut sit amet diam. Etiam lacinia orci erat, id cursus elit sodales fringilla.</Typography>
+          </Paper >
+          <Paper sx={{borderRadius:'15px'}}>
+          
+            <img src={tutorial1} alt="tutorial1" style={{ width: '380px', height: '380px' }} />
+            <h2>Workout Name </h2>
+            <Typography> Nam in magna non erat consectetur vulputate ut sit amet diam. Etiam lacinia orci erat, id cursus elit sodales fringilla.</Typography>
+          </Paper>
+          <Paper sx={{borderRadius:'15px'}}>
+          
+            <img src={tutorial1} alt="tutorial1" style={{ width: '380px', height: '380px' }} />
+            <h2>Workout Name </h2>
+            <Typography> Nam in magna non erat consectetur vulputate ut sit amet diam. Etiam lacinia orci erat, id cursus elit sodales fringilla.</Typography>
+          </Paper>
+          <Paper sx={{borderRadius:'15px'}}>
+          
+            <img src={tutorial1} alt="tutorial1" style={{ width: '380px', height: '380px' }} />
+            <h2>Workout Name </h2>
+            <Typography> Nam in magna non erat consectetur vulputate ut sit amet diam. Etiam lacinia orci erat, id cursus elit sodales fringilla.</Typography>
+          </Paper>
+
+
+        </Stack>
+
+      </Paper>
+
+
+      <Paper sx={{
         
+        height: "1260px",
+        width: "100%",
+        marginTop: '120px',
+        marginLeft: 'auto',
+        marginRight: 'auto',
+        justifyContent: 'center',
+        backgroundColor: '#BEACA2',
+        textAlign: 'center',
+        fontSize: '50px',
+        paddingTop: '30px',
+        alignItems: 'center',
+        borderRadius:'15px',
+
+      }}>
+        <Typography sx={{ margin: 'auto', alignItems: 'center' }}>
+          <h1>Prodcuts</h1>
+        </Typography>
+        <Stack sx={{
+          display: 'grid',
+          gridTemplateColumns: 'repeat(3,2fr)',
+          width: '300px',
+          marginTop: '30px',
+          paddingBottom: '100px',
+          gap: '50px',
+          paddingRight: '70px',
+          marginLeft: 'auto',
+          marginRight: 'auto',
+          justifyContent: "center",
+          alignItems: "center",
+
+
+
+        }}>
+          <Paper sx={{borderRadius:'15px'}}>
+            <img src={tutorial1} alt="tutorial1" style={{ width: '100%', height: '380px' }} />
+            <h2>Product Name </h2>
+            <Typography> Nam in magna non erat consectetur vulputate ut sit amet diam. Etiam lacinia orci erat, id cursus elit sodales fringilla.</Typography>
+          </Paper>
+          <Paper sx={{borderRadius:'15px'}}>
+            <img src={tutorial1} alt="tutorial1" style={{ width: '100%', height: '380px' }} />
+            <h2>Product Name </h2>
+            <Typography> Nam in magna non erat consectetur vulputate ut sit amet diam. Etiam lacinia orci erat, id cursus elit sodales fringilla.</Typography>
+          </Paper>
+          <Paper sx={{borderRadius:'15px'}}>
+            <img src={tutorial1} alt="tutorial1" style={{ width: '100%', height: '380px' }} />
+            <h2>Product Name </h2>
+            <Typography> Nam in magna non erat consectetur vulputate ut sit amet diam. Etiam lacinia orci erat, id cursus elit sodales fringilla.</Typography>
+          </Paper >
+          <Paper sx={{borderRadius:'15px'}}>
+            <img src={tutorial1} alt="tutorial1" style={{ width: '380px', height: '380px' }} />
+            <h2>Product Name </h2>
+            <Typography> Nam in magna non erat consectetur vulputate ut sit amet diam. Etiam lacinia orci erat, id cursus elit sodales fringilla.</Typography>
+          </Paper>
+          <Paper sx={{borderRadius:'15px'}}>
+            <img src={tutorial1} alt="tutorial1" style={{ width: '380px', height: '380px' }} />
+            <h2>Product Name </h2>
+            <Typography> Nam in magna non erat consectetur vulputate ut sit amet diam. Etiam lacinia orci erat, id cursus elit sodales fringilla.</Typography>
+          </Paper>
+          <Paper sx={{borderRadius:'15px'}}>
+            <img src={tutorial1} alt="tutorial1" style={{ width: '380px', height: '380px' }} />
+            <h2>Product Name </h2>
+            <Typography> Nam in magna non erat consectetur vulputate ut sit amet diam. Etiam lacinia orci erat, id cursus elit sodales fringilla.</Typography>
+          </Paper>
+
+
+        </Stack>
+
+      </Paper>
+
+
+      <Paper sx={{
+        background: '#9CC3C6',
+        height: "1260px",
+        width: "100%",
+        marginTop: '120px',
+        marginLeft: 'auto',
+        marginRight: 'auto',
+        justifyContent: 'center',
+        backgroundColor: '#9D8EAF',
+        textAlign: 'center',
+        fontSize: '50px',
+        paddingTop: '30px',
+        alignItems: 'center',
+        borderRadius:'15px',
+        paddingBottom:'50px',
+
+      }}>
+        <Typography sx={{ margin: 'auto', alignItems: 'center' }}>
+          <h1>Games</h1>
+        </Typography>
+        <Stack sx={{
+          display: 'grid',
+          gridTemplateColumns: 'repeat(3,2fr)',
+          width: '300px',
+          marginTop: '30px',
+          paddingBottom: '100px',
+          gap: '50px',
+          paddingRight: '70px',
+          marginLeft: 'auto',
+          marginRight: 'auto',
+          justifyContent: "center",
+          alignItems: "center",
+          marginBottom:'100px',
+
+
+
+        }}>
+          <Paper sx={{borderRadius:'15px'}}>
+            <img src={tutorial1} alt="tutorial1" style={{ width: '100%', height: '380px' }} />
+            
+            <Typography> Nam in magna non erat consectetur vulputate ut sit amet diam. Etiam lacinia orci erat, id cursus elit sodales fringilla.</Typography>
+          </Paper>
+          <Paper sx={{borderRadius:'15px'}}>
+            <img src={tutorial1} alt="tutorial1" style={{ width: '100%', height: '380px' }} />
+            <Typography> Nam in magna non erat consectetur vulputate ut sit amet diam. Etiam lacinia orci erat, id cursus elit sodales fringilla.</Typography>
+          </Paper>
+          <Paper sx={{borderRadius:'15px'}}>
+            <img src={tutorial1} alt="tutorial1" style={{ width: '100%', height: '380px' }} />
+            <Typography> Nam in magna non erat consectetur vulputate ut sit amet diam. Etiam lacinia orci erat, id cursus elit sodales fringilla.</Typography>
+          </Paper >
+          <Paper sx={{borderRadius:'15px'}}>
+            <img src={tutorial1} alt="tutorial1" style={{ width: '380px', height: '380px' }} />
+            <Typography> Nam in magna non erat consectetur vulputate ut sit amet diam. Etiam lacinia orci erat, id cursus elit sodales fringilla.</Typography>
+          </Paper>
+          <Paper sx={{borderRadius:'15px'}}>
+            <img src={tutorial1} alt="tutorial1" style={{ width: '380px', height: '380px' }} />
+            <Typography> Nam in magna non erat consectetur vulputate ut sit amet diam. Etiam lacinia orci erat, id cursus elit sodales fringilla.</Typography>
+          </Paper>
+          <Paper sx={{borderRadius:'15px'}}>
+            <img src={tutorial1} alt="tutorial1" style={{ width: '380px', height: '380px' }} />
+            <Typography> Nam in magna non erat consectetur vulputate ut sit amet diam. Etiam lacinia orci erat, id cursus elit sodales fringilla.</Typography>
+          </Paper>
+
+
         </Stack>
 
       </Paper>

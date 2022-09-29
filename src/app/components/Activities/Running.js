@@ -28,7 +28,10 @@ const useStyles = makeStyles(() => ({
     height: '280px',
     width: '280px',
 
-
+    photo: {
+      width: '380px',
+      height: '380px'
+    }
   },
 
 }))
@@ -82,44 +85,36 @@ export const Running = () => {
         </Stack>
       </Stack>
 
-      // Second Stack
 
-      <Stack sx={{
+        // Second stack component
+
+      <Paper sx={{
         width: '80%',
-        height: '100%',
+        height: '600px',
         marginLeft: 'auto',
         marginRight: 'auto',
         marginTop: '60px',
         alignItems: 'center',
         justifyContent: 'center',
         backgroundColor: '#BC5A5B',
-        
-
-
-
-
+        boxShadow: 0,
+        borderRadius: 'none'
       }}>
-        <Stack sx={{
-          display: 'grid',
-          gridTemplateColumns: 'repeat(3,1fr)',
-          width: '750px',
-          paddingBottom: '100px',
-          gap: '50px',
-          paddingRight: '500px',
-
-
+        <Stack direction='row' sx={{
+          width: '100%',
+          gap: '10px',
+          alignItems: 'center',
+          margin: 'auto',
+          paddingTop: '90px',
 
         }}>
-          <Paper className={classes.paper1}><img src={running3} id="running3" /></Paper>
-          <Paper className={classes.paper1}><img src={running4} id="running4" /></Paper>
-          <Paper className={classes.paper1}><img src={running5} id="running5" /></Paper>
-
+          <img src={running3} alt="running3" style={{ width: '380px', height: '380px' }} />
+          <img src={running4} alt="running4" style={{ width: '380px', height: '380px' }} />
+          <img src={running5} alt="running5" style={{ width: '380px', height: '380px' }} />
 
         </Stack>
-      </Stack>
-
-          //Third Stack Component
-
+      </Paper>
+      //Third Stack Component
       <Stack sx={{
         width: '80%',
         height: '100%',
@@ -127,8 +122,6 @@ export const Running = () => {
         marginRight: 'auto',
         marginTop: '0px',
         alignItems: 'center',
-
-
 
       }}>
         <Stack sx={{
@@ -154,37 +147,33 @@ export const Running = () => {
 
           //Fourth Stack Component
 
-      <Stack sx={{
+      <Paper sx={{
         width: '80%',
-        height: '100%',
+        height: '600px',
         marginLeft: 'auto',
         marginRight: 'auto',
-        marginTop: '0px',
+        marginTop: '60px',
         alignItems: 'center',
         justifyContent: 'center',
         backgroundColor: '#4C8C81',
-        marginBottom: '150px',
-
-
-
+        boxShadow: 0,
+        borderRadius: 'none', 
+        paddingBottom:'50px', 
       }}>
-        <Stack sx={{
-          display: 'grid',
-          gridTemplateColumns: 'repeat(3,1fr)',
-          width: '750px',
-          paddingBottom: '100px',
-          gap: '50px',
-          paddingRight: '10px',
+        <Stack direction='row' sx={{
+          width: '100%',
+          gap: '10px',
+          alignItems: 'center',
+          margin: 'auto',
+          paddingTop: '90px',
 
         }}>
-          <Paper className={classes.paper1}><img src={running7} id="running7" /></Paper>
-          <Paper className={classes.paper1}><img src={running8} id="running8" /></Paper>
-          <Paper className={classes.paper1}><img src={running9} id="running9" /></Paper>
-
+          <img src={running7} alt="running7" style={{ width: '380px', height: '380px' }} />
+          <img src={running8} alt="running8" style={{ width: '380px', height: '380px' }} />
+          <img src={running9} alt="running9" style={{ width: '380px', height: '380px' }} />
 
         </Stack>
-      </Stack>
-
+      </Paper>
 
 
 

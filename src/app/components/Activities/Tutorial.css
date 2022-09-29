@@ -1,4 +1,10 @@
-#context_paper_tutorial{ 
-    color: white; 
-    background-color:#380e4a; 
+#page_title{ 
+    font-size: 100px; 
+    color: white;
+    text-align: center;
+}
+img { 
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    object-fit: cover;
 }
