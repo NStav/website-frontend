@@ -11,6 +11,7 @@ import OurTeamComponent from "./components/ourTeam/OurTeamComponent";
 import ContactUsComponent from "./components/contactUs/ContactUsComponent";
 import SignUpComponent from "./components/signUp/SignUpComponent";
 import GlobalStateProvider from "./stores/GlobalStateProvider";
+import CyclingComponent from "./components/cycling/CyclingComponent";
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
         <Route path="/loginIn" component={LoginComponent} />
         <Route path="/ourTeam" component={OurTeamComponent} />
         <Route path="/ourProject" component={OurProjectComponent} />
+        <Route path="/cycling" component={CyclingComponent} />
         <Route path="/contactUs" component={ContactUsComponent} />
         <Route path="/signUp" component={SignUpComponent} />
       </Grid>

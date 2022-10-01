@@ -122,6 +122,18 @@ const NavBarComponent = () => {
                 textAlign="center"
                 exact
                 component={NavLink}
+                to="/cycling"
+              >
+                {" "}
+                Cycling
+              </Typography>
+            </MenuItem>
+
+            <MenuItem onClick={handleCloseNavMenu}>
+              <Typography
+                textAlign="center"
+                exact
+                component={NavLink}
                 to="/ourProject"
               >
                 {" "}
@@ -232,6 +244,23 @@ const NavBarComponent = () => {
             to="/ourTeam"
           >
             Our Team
+          </Button>
+
+          <Button
+            style={{
+              borderRadius: 10,
+              backgroundColor: "#E87461",
+              padding: "18px 36px",
+              fontSize: "1vw",
+            }}
+            variant="contained"
+            onClick={handleCloseNavMenu}
+            sx={{ mx: 8, color: "white", display: "block", marginLeft: "" }}
+            exact
+            component={NavLink}
+            to="/cycling"
+          >
+            Cycling
           </Button>
 
           <Button
