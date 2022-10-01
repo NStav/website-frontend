@@ -6,55 +6,96 @@ import gym from "./img/gym.png"
 import biking from "./img/biking.png"
 
 export default function DailySummaryComponent() {
-  return <div className="tutorial">
-    <div className="tutorial-title">
-      <h2>HOW TO PARTICIPATE IN OUR PLATFORM</h2> 
+  return <div className="ds">
+    <div className="ds-title">
+      <h2> Your Daily Report</h2> 
     </div>
-    <img className="tutorial-banner-img" src={run_video}></img>
-    <div className="tutorial-container">
-
-      <div className="tutorial-container-1">
+    <img className="ds-banner-img" src={run_video}></img>
+    <div className="ds-container">
+      <div>
         <p>
-        <h3>BECOME A MEMBER</h3>
-        Roll through small artisan towns, fill your 
-        bottles from waterfalls  cascading on the side of the road (yes its safe!), climb the incredibly steep winding 
-        jungle roads and descend through the clouds back to town. This is what adventure feels like on two wheels.
+        <h3>Exercise 1:</h3>
         </p>
-        <img src={deadlift} className="tutorial-img1"></img>
-      </div>
-
-      <div className="tutorial-container-1">
-        <img src={gym} className="tutorial-img"></img>
+        <br></br>
+        <div className="loop" >
+        <div className="para">
         <p>
-        <h3>JOIN THE PROJECT</h3>
-        Getting back to the true you. It can be that simple. 
-        Yoga offers up a way for us to see a world that is working for you instead of against you. 
+          Time: 02/08/22
         </p>
-      </div>
-
-      <div className="tutorial-container-1">
         <p>
-        <h3>BUY THE PRODUCT</h3>
-        Roll through small artisan towns, fill your 
-        bottles from waterfalls  cascading on the side of the road (yes its safe!), climb the incredibly steep winding 
-        jungle roads and descend through the clouds back to town. This is what adventure feels like on two wheels.
+          DURATION: 36 mins
         </p>
-        <img src={biking} className="tutorial-img"></img>
-      </div>
+        </div>        
+        <div className="para">
+        <p>
+          Type: running
+        </p>
+        <p>
+          Location: melbourne
+        </p>
+        </div>
+        <p>
+          Lorem Ipsum is simply dummy text of the printing and
+          typesetting industry. Lorem Ipsum has been the industry's
+          standard dummy text ever since the 1500s, when an unknown 
+          printer took a galley of type and
+        </p>
+        </div>
+     
+        <div className="loop" >
+        <div className="para">
+        <p>
+          Time: 02/08/22
+        </p>
+        <p>
+          DURATION: 36 mins
+        </p>
+        </div>        
+        <div className="para">
+        <p>
+          Type: running
+        </p>
+        <p>
+          Location: melbourne
+        </p>
+        </div>
+        <p>
+          Lorem Ipsum is simply dummy text of the printing and
+          typesetting industry. Lorem Ipsum has been the industry's
+          standard dummy text ever since the 1500s, when an unknown 
+          printer took a galley of type and
+        </p>
+        </div>
 
+        <p>
+        <h3>Exercise 2:</h3>
+        </p>
+
+        <div className="loop" >
+        <div className="para">
+        <p>
+          Time: 02/08/22
+        </p>
+        <p>
+          DURATION: 36 mins
+        </p>
+        </div>        
+        <div className="para">
+        <p>
+          Type: running
+        </p>
+        <p>
+          Location: melbourne
+        </p>
+        </div>
+        <p>
+          Lorem Ipsum is simply dummy text of the printing and
+          typesetting industry. Lorem Ipsum has been the industry's
+          standard dummy text ever since the 1500s, when an unknown 
+          printer took a galley of type and
+        </p>
+        </div>
+      </div>
     </div>
-       <p>
-       <h3>FAQ</h3>
-       </p>
-    <p className="tutorial-footer">
-       <h4>Title 1:XXXXXXX</h4>
-       Roll through small artisan towns, fill your 
-        bottles from waterfalls  cascading on the side of the road (yes its safe!), climb the incredibly steep winding 
-        jungle roads and descend through the clouds back to town. This is what adventure feels like on two wheels.
-        <h4>Title 1:XXXXXXX</h4>
-        <h4>Title 1:XXXXXXX</h4>
-        <h4>Title 1:XXXXXXX</h4>
-        <h4>Title 1:XXXXXXX</h4>
-    </p>
   </div>;
 }

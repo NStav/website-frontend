@@ -228,6 +228,22 @@ const NavBarComponent = () => {
             sx={{ mx: 8, color: "white", display: "block", marginLeft: "" }}
             exact
             component={NavLink}
+            to="/dailySummary"
+          >
+            Daily summary
+          </Button>
+          <Button
+            style={{
+              borderRadius: 10,
+              backgroundColor: "#E87461",
+              padding: "18px 36px",
+              fontSize: "1vw",
+            }}
+            variant="contained"
+            onClick={handleCloseNavMenu}
+            sx={{ mx: 8, color: "white", display: "block", marginLeft: "" }}
+            exact
+            component={NavLink}
             to="/aboutUs"
           >
             About Us
