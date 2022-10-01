@@ -33,7 +33,7 @@
   color: #BC5A5B;
 }
 .grid-description{
-  font-family: 'Roboto Flex';
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -46,7 +46,9 @@
 .c-text {
   line-height: 50px;
     /* letter-spacing: 6px; */
-    word-spacing: 15px;
+    font-family: 'Roboto', sans-serif;
+    word-spacing: 10px;
+    text-align:justify
 }
 .Content{ 
   height: auto;
@@ -100,7 +102,7 @@ color: #FFFFFF;
   position: relative;
 }
 .ProjectDetail1 p{
-  font-family: 'Roboto Flex';
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
