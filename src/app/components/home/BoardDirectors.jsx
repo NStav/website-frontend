@@ -29,7 +29,15 @@ export default function BoardDirectors() {
                     <div className="grid-students"><img src = {RaymondCorrigan}/><div><h4>{data.leaders[2].name} </h4><p>{data.leaders[2].team}</p></div></div>
                     <div className="grid-students"><img src = {AkshatArora}/><div><h4>{data.leaders[3].name}</h4><p>{data.leaders[3].team}</p></div></div>
                     <div className="grid-students"><img src = {MasonWilliamAllcorn}/><div><h4>{data.leaders[5].name}</h4><p>{data.leaders[5].team}</p></div></div>
-
+                    <div className="grid-students"><img src = {RaymondCorrigan}/><div><h4>{data.leaders[6].name} </h4><p>{data.leaders[6].team}</p></div></div>
+                    <div className="grid-students"><img src = {AkshatArora}/><div><h4>{data.leaders[7].name}</h4><p>{data.leaders[7].team}</p></div></div>
+                    <div className="grid-students"><img src = {MasonWilliamAllcorn}/><div><h4>{data.leaders[8].name}</h4><p>{data.leaders[8].team}</p></div></div>
+                </div>
+                <h3 className="students-heading">Student Sub Team Leadership</h3>
+                <div className="student-directors-members">
+                    <div className="grid-students"><img src = {EmilyChin}/><div><h4>{data.sub_leaders[1].name}</h4><p>{data.sub_leaders[1].team}</p></div></div>
+                    <div className="grid-students"><img src = {SharniSujatha}/><div><h4>{data.sub_leaders[0].name}</h4><p>{data.sub_leaders[0].team}</p></div></div>
+                    <div className="grid-students"><img src = {WilliamHebblewhite}/><div><h4>{data.sub_leaders[2].name}</h4><p>{data.sub_leaders[2].team}</p></div></div>
                 </div>
             </div>
         </div>

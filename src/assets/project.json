@@ -65,39 +65,78 @@
     "leaders":
     [
         {
-            "name": "William Hebblewhite",
-            "team": "Data Analytics",
-            "trimester": "T1",
-            "year":"2022"
-        },
-        {
-            "name": "Emily Chin",
-            "team": "Project Management and Design",
-            "trimester": "T1",
-            "year":"2022"
-        },
-        {
-            "name": "Raymond Corrigan",
-            "team": "VR Modelling",
-            "trimester": "T1",
+            "name": "Sharni Sujatha",
+            "team": "Iot and Embedded Systems",
+            "trimester": "T2",
             "year":"2022"
         },
         {
             "name": "Akshat Arora",
-            "team": "Web Development and DevOps",
-            "trimester": "T1",
+            "team": "DevOps",
+            "trimester": "T2",
             "year":"2022"
         },
         {
-            "name": "Sharni Sujatha",
-            "team": "IoT Sensor Research and Development",
-            "trimester": "T1",
+            "name": "Avinash Arora",
+            "team": "Web Development",
+            "trimester": "T2",
             "year":"2022"
         },
         {
-            "name": "Mason Allcorn",
+            "name": "Rhea Sutton",
+            "team": "Design",
+            "trimester": "T2",
+            "year":"2022"
+        },
+        {
+            "name": "Adrian Scott Grigo",
+            "team": "IoT and Embedded Systems",
+            "trimester": "T2",
+            "year":"2022"
+        },
+        {
+            "name": "Abdul Rafay Hamid",
+            "team": "Mobile App Development",
+            "trimester": "T2",
+            "year":"2022"
+        },
+        {
+            "name": "Cameron Hart",
+            "team": "VR Modelling & Game Development",
+            "trimester": "T2",
+            "year":"2022"
+        },
+        {
+            "name": "Mason William",
             "team": "Cyber Security",
-            "trimester": "T1",
+            "trimester": "T2",
+            "year":"2022"
+        },
+        {
+            "name": "Shashvat Joshi",
+            "team": "Data Analytics",
+            "trimester": "T2",
+            "year":"2022"
+        }
+    ],
+    "sub_leaders":
+    [
+        {
+            "name": "Joshua Joose",
+            "team": "Web Development - Frontend",
+            "trimester": "T2",
+            "year":"2022"
+        },
+        {
+            "name": "Niranjan Shrestha",
+            "team": "Web Development - Backend",
+            "trimester": "T2",
+            "year":"2022"
+        },
+        {
+            "name": "Sachini Witharana",
+            "team": "Web Development - Documentation",
+            "trimester": "T2",
             "year":"2022"
         }
     ]

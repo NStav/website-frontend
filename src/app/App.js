@@ -11,6 +11,7 @@ import LoginComponent from "./components/login/LoginComponent";
 import OurTeamComponent from "./components/ourTeam/OurTeamComponent";
 import ContactUsComponent from "./components/contactUs/ContactUsComponent";
 import SignUpComponent from "./components/signUp/SignUpComponent";
+import DailySummaryComponent from "./components/dailySummary/DailySummaryComponent";
 import GlobalStateProvider from "./stores/GlobalStateProvider";
 
 
@@ -28,6 +29,7 @@ function App() {
         <Route path="/contactUs" component={ContactUsComponent} />
         <Route path="/signUp" component={SignUpComponent} />
         <Route path="/tutorial" component={TutorialComponent} />
+        <Route path="/dailySummary" component={DailySummaryComponent} /> 
       </Grid>
     </GlobalStateProvider>
   );
