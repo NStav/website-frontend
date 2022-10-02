@@ -27,7 +27,8 @@
     text-align: center;
     color: white;
     text-shadow: black;
-    font-family: 'Veranda', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
 }
 
 .heading1 {
@@ -60,6 +61,7 @@
     padding: 10px;
     border-radius: 20px;
     text-align: center;
+    font-family: 'Roboto', sans-serif;
 }
 /* button on  hover added */
 .grid-object:hover {
@@ -69,6 +71,8 @@
     padding: 10px;
     border-radius: 20px;
     text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
 }
 img {
     height: 100px;

@@ -11,6 +11,7 @@
  border-radius: 10px;
  text-align: center;
  vertical-align: middle;
+ font-family: 'Roboto', sans-serif;
  width: 150px;
  height: 75px;
  font-size: 2em;
@@ -22,6 +23,8 @@
   margin-right: 10px!important;
   background-color: #834c8c !important;
   border-radius: 10px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
   text-align: center;
   font-size: small!important;
   vertical-align: middle;
