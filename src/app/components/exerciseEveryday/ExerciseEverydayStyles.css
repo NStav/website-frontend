@@ -1,0 +1,231 @@
+* {
+   
+}
+
+.ExerciseBackground {
+    background-image: linear-gradient(#642850, #380E4A);
+}
+
+.ExerciseTitleContent {
+    background-image: url("./img/OlympicRings.jpg");
+    background-size: cover;
+    height: 1000px;
+}
+
+.ExerciseTitleContent h1{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 100px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 300px;
+}
+
+.ExerciseTitleContent h2{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 100px;
+    color: #ffffff;
+    text-align: right;
+    margin-right: 180px;
+    margin-top: -165px;
+}
+
+.IconGrid {
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    height: auto;
+    display: grid;
+    width: 100%;
+    justify-content: center;
+    grid-template-columns: repeat(4, 200px);
+    grid-template-rows: repeat(1, 200px);
+    column-gap: 210px;
+    margin:auto;
+    background-color: #e87461;
+}
+
+.IconObject {
+    display: grid;
+    margin: 20px;
+    background-color: #e87461;
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.ExerciseContent {
+    height: auto;
+}
+
+.RunningContainer {
+    background-image: url("./img/running2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 450px;
+    margin-top:  200px;
+}
+
+.RunningContainer h1 {
+    font-style: normal;
+    font-weight: 750;
+    font-size: 85px;
+    color: #ffffff;
+    text-align: left;
+    position: relative;
+    top: 280px;
+    margin-left: 400px;
+}
+
+.RunningContainer p {
+    font-style: normal;
+    font-weight: 350;
+    font-size: 25px;
+    color: #ffffff;
+    text-align: right;
+    margin-right: 25px;
+}
+
+.YogaContainer {
+    background-image: url("./img/yoga2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 450px;
+    margin-top: 100px;
+    
+}
+
+.YogaContainer h1 {
+    font-style: normal;
+    font-weight: 750;
+    font-size: 85px;
+    color: #ffffff;
+    text-align: left;
+    margin-left: 50px;
+    position: relative;
+    top: 320px;
+}
+
+.YogaContainer p {
+    font-style: normal;
+    font-weight: 350;
+    font-size: 25px;
+    color: #ffffff;
+    text-align: right;
+    margin-right: 25px;
+    
+}
+
+.CyclingContainer {
+    background-image: url("./img/cycling2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 450px;
+    margin-top: 100px;
+    
+}
+
+.CyclingContainer h1 {
+    font-style: normal;
+    font-weight: 750;
+    font-size: 85px;
+    color: #ffffff;
+    text-align: right;
+    position: relative;
+    left: -350px
+}
+
+.CyclingContainer p {
+    font-style: normal;
+    font-weight: 350;
+    font-size: 25px;
+    color: #ffffff;
+    text-align: right;
+    margin-right: 25px;
+}
+
+.E-SportsContainer {
+    background-image: url("./img/esports2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 450px;
+    margin-top: 100px;
+    
+}
+
+.E-SportsContainer h1 {
+    font-style: normal;
+    font-weight: 750;
+    font-size: 85px;
+    color: #ffffff;
+    text-align: center;
+    position: relative;
+    top: 100px;
+    left: -200px;
+}
+
+.E-SportsContainer p {
+    font-style: normal;
+    font-weight: 350;
+    font-size: 25px;
+    color: #ffffff;
+    text-align: right;
+    margin-right: 25px;
+}
+
+.ProjectsTitle h1{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 55px;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 250px;
+}
+
+.ProjectGrid {
+    font-size: 35px;
+    color: rgb(0, 0, 0);
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3, 200px);
+    grid-template-rows: repeat(1, 200px);
+    column-gap: 300px;
+    height: 900px;
+    position: relative;
+    left: -135px;
+}
+
+.ProjectObject {
+    display: grid;
+    margin: 20px;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+    height: 700px;
+    width: 400px;
+}
+
+.ProjectObject h1{
+    font-style: normal;
+    font-weight: 750;
+    font-size: 40px;
+    position: relative;
+    top: 90px;
+}
+
+.ProjectObject p{
+    font-style: normal;
+    font-weight: 450;
+    font-size: 35px;
+    position: relative;
+    top: 15px;
+    
+}
+
+.ProjectObject img{
+    position: relative;
+    left: 30px;
+    
+}
+

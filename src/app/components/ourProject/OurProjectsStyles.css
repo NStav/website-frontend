@@ -1,0 +1,280 @@
+* {
+  box-sizing: border-box;
+  
+}
+
+.LogoImg{
+  background-color: #847677;
+  justify-content: center;
+}
+.OurProjectContent{ 
+  height: auto;
+  justify-content: center;
+  background-image: linear-gradient(#837677, #452d4a );
+  text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+}
+.OurProjectContent h1{
+  
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  margin-top: -10px;
+  color: #ffffff;
+  text-align: center;
+  isolation: isolate;
+}
+.OurProjectContent p{
+
+font-style: normal;
+font-weight: 400;
+font-size: 23px;
+line-height: 60px;
+color: #ffffff;
+text-align: center;
+isolation: isolate;
+}
+
+
+.Footer{ 
+  height: auto;
+  justify-content: center;
+  background-color: #424040;
+  margin-top: -16px;
+  margin-bottom: -16px;
+}
+
+.FooterContent h1{
+  
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 100px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.FooterContent p{
+  
+  font-style: normal;
+  font-weight: 600;
+  font-size: 27px;
+  color: #ffffff;
+  text-align: center;
+  margin-right: 200px;
+}
+
+.FooterContent p1{
+  
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 100px;
+  color: #ffffff;
+  text-align: center;
+  margin-left: 800px;
+}
+
+.SocialImg {
+  display: flex;
+  width: 300px;
+  margin-left: 880px;
+}
+
+.BgSunCycle{
+  position: relative;
+  background-color: #847677;
+}
+
+.BgSunCycle::before{
+  content: "";
+  background-image: url("./img/BikeArt.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  inset: 0;
+  opacity: 0.3;
+}
+
+.BgSmartBike{
+  position: relative;
+  background-color: #7B6D70;
+}
+
+.BgSmartBike::before{
+  content: "";
+  background-image: url("./img/VrGoggles.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  inset: 0;
+  opacity: 0.3;
+}
+
+.BgMobileApp{
+  position: relative;
+  background-color: #77676C;
+}
+
+.BgMobileApp::before{
+  content: "";
+  background-image: url("./img/phone.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  inset: 0;
+  opacity: 0.3;
+}
+
+.BgFrontEnd{
+  position: relative;
+  background-color: #6F5E66;
+}
+
+.BgFrontEnd::before{
+  content: "";
+  background-image: url("./img/phone2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  inset: 0;
+  opacity: 0.3;
+}
+
+.BgGit{
+  position: relative;
+  background-color: #6B5862;
+}
+
+.BgGit::before{
+  content: "";
+  background-image: url("./img/usbports.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  inset: 0;
+  opacity: 0.3;
+}
+
+.BgTableau{
+  position: relative;
+  background-color: #695761;
+}
+
+.BgTableau::before{
+  content: "";
+  background-image: url("./img/graphs.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  inset: 0;
+  opacity: 0.3;
+}
+
+.BgDesign{
+  position: relative;
+  background-color: #634F5C;
+}
+
+.BgDesign::before{
+  content: "";
+  background-image: url("./img/hoop.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  inset: 0;
+  opacity: 0.3;
+}
+
+.BgPosture{
+  position: relative;
+  background-color: #5E4959;
+}
+
+.BgPosture::before{
+  content: "";
+  background-image: url("./img/cycling.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  inset: 0;
+  opacity: 0.3;
+}
+
+.BgConsumption{
+  position: relative;
+  background-color: #594355;
+}
+
+.BgConsumption::before{
+  content: "";
+  background-image: url("./img/clouds.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  inset: 0;
+  opacity: 0.3;
+}
+
+.BgPrediction{
+  position: relative;
+  background-color: #6A4766;
+}
+
+.BgPrediction::before{
+  content: "";
+  background-image: url("./img/graphs2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  inset: 0;
+  opacity: 0.3;
+}
+
+.BgMobile{
+  position: relative;
+  background-color: #623E62;
+}
+
+.BgMobile::before{
+  content: "";
+  background-image: url("./img/phone3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  inset: 0;
+  opacity: 0.3;
+}
+
+.BgWebDesign{
+  position: relative;
+  background-color: #5A355C;
+}
+
+.BgWebDesign::before{
+  content: "";
+  background-image: url("./img/code.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  inset: 0;
+  opacity: 0.3;
+}
+
+.BgSecurity{
+  position: relative;
+  background-color: #512B57;
+}
+
+.BgSecurity::before{
+  content: "";
+  background-image: url("./img/key.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  inset: 0;
+  opacity: 0.3;
+}

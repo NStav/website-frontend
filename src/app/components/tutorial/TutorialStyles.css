@@ -1,0 +1,98 @@
+* {
+   
+}
+
+.TutorialContent {
+    background-color: #380E4A;
+    height: 1380px;
+}
+
+.TutorialContent h1{
+    color: #FF6C19;
+    text-align: center;
+    line-height: 220px;
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.CyclingImage{
+    object-fit: cover;
+}
+
+.TutorialContent2 {
+    background-color: white;
+    height: 2150px;
+}
+
+.TutorialContent2 h1{
+    color: #FF6C19;
+    text-align: left;
+    line-height: 220px;
+    font-size: 60px;
+    font-weight: 700;
+    margin-left: 80px;
+}
+
+
+.TutorialContent2 h2{
+    color: #FF6C19;
+    text-align: left;
+    font-size: 30px;
+    font-weight: 400;
+    margin-left: 20px;
+    margin-bottom: 120px;
+}
+
+.TutorialContent2 h3{
+    color: #FF6C19;
+    text-align: left;
+    line-height: 220px;
+    font-size: 60px;
+    font-weight: 700;
+    margin-left: 80px;
+    margin-top: 400px;
+}
+
+
+.TutorialContent2 h4{
+    color: #FF6C19;
+    text-align: right;
+    line-height: 220px;
+    font-size: 60px;
+    font-weight: 700;
+    margin-right: 80px;
+    margin-top: 450px;
+}
+
+
+.TutorialContent2 h5{
+    color: #FF6C19;
+    text-align: right;
+    font-size: 30px;
+    font-weight: 400;
+    margin-right: 20px;
+    margin-bottom: 120px;
+}
+
+.CardsImage {
+    float: right;
+    margin-top: -350px;
+}
+
+.GroupImage {
+    float: right;
+    margin-top: -300px;
+}
+
+.WatchesImage {
+    float: left;
+    margin-top: -400px;
+}
+  
+  .TutorialSocialImg {
+    display: flex;
+    width: 300px;
+    margin-left: 880px;
+    align-items: center;
+  }
+  

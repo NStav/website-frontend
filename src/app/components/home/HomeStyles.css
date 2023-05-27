@@ -1,0 +1,154 @@
+ * {
+    
+}
+
+.HomeContent {
+    background-image: linear-gradient(#AB5AA1, #7D2B90);
+    height: auto;
+}
+
+.HomeContent h1 {
+    font-style: normal;
+    font-weight: 650;
+    font-size: 60px;
+    color: #ffffff;
+    text-align: left;
+    margin-left: 50px;
+    position: relative;
+    line-height: 200px;
+}
+
+
+.HomeContent h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    color: #ffffff;
+    text-align: left;
+    margin-left: 50px;
+    position: relative;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.HomeContent h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 100px;
+    
+}
+
+
+.HomeBackgroundSunset {
+    background-image: url("./img/cyclesunset.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1280px;
+}
+
+.RedbackLogo {
+    float: right;
+    position: relative;
+    top: -200px;
+    left: -100px;
+}
+
+.HomeProjectGrid {
+    font-size: 35px;
+    color: rgb(0, 0, 0);
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3, 200px);
+    grid-template-rows: repeat(2, 600px);
+    column-gap: 250px;
+    position: relative;
+    top: 100px;
+    left: 70px;
+    
+}
+
+.HomeProjectObject {
+    display: grid;
+    margin: 20px;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+    height: 350px;
+    width: 350px;
+}
+
+.HomeProjectObject h1{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    color: #000000;
+    line-height: 30px;
+    position: relative;
+    left: 35px;
+}
+
+.HomeProjectObject p{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    color: #000000;
+    
+}
+
+.HomeProjectObject img{
+    margin-left: 65px;
+}
+
+.HomeProjectsContent {
+}
+
+.HomeProjectsContent h4{
+    font-style: normal;
+    font-weight: 650;
+    font-size: 60px;
+    color: #ffffff;
+    text-align: left;
+    margin-left: 30px;
+    position: relative;
+    top: 20px;
+}
+
+.HomeProjectsContent p{
+    font-style: normal;
+    font-weight: 650;
+    font-size: 25px;
+    color: #ffffff;
+    text-align: left;
+    margin-left: 30px;
+    position: relative;
+    top: 20px;
+}
+.MissionBackground{
+    background-image: url("./img/mission.PNG");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 370px;
+    text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+}
+
+.VisionBackground{
+    background-image: url("./img/vision.PNG");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 370px;
+}
+
+.GoalsBackground{
+    background-image: url("./img/goals.PNG");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 370px;
+}

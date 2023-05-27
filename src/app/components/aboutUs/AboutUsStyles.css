@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+    
+}
+
+.AboutUs {
+    background-color: #A67084;
+    
+}
+
+.AboutUsContent{ 
+    
+    justify-content: center;
+    
+  }
+  
+  .AboutUsContent h1{
+    margin-top: 100px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    color: #ffffff;
+    text-align: center;
+    margin-top: -15px;
+  }
+
+  .AboutUsContent p{
+  
+  font-style: normal;
+  font-weight: 350;
+  font-size: 45px;
+  line-height: 60px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 50px;
+  }
+
+  .ManRunning{
+    margin-top: -17px;
+    background-color: #A67084;
+  }
+
+  .Cyclist{
+    background-color: #A67084;
+
+  }
+
+
+  .DirectorsStudentContainer {
+    width: 1903px;
+    height: auto;
+    background-color: #A67084;
+    position: relative;
+    
+    
+}
+
+.DirectorsStudentContainer::before{
+  content: "";
+  background-image: url("./img/Logo.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  inset: 0;
+  opacity: 0.3;
+}
+
+.DirectorsHeading {
+  padding: 50px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  color: #ffffff;
+  isolation: isolate;
+}
+
+.GridStyle{
+  text-align: center;
+}
+
+.DirectorsMembers {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(2, 300px);
+  grid-template-rows: auto;
+  isolation: isolate;
+}
+
+.GridDirectors h2 {
+  padding-top: 20px;
+  font-size: 25px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.StudentHeading {
+  padding: 20px;
+  color: #ffffff;
+  font-size: 30px;
+  isolation: isolate;
+}
+
+
+
+.StudentMembers {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(4, 300px);
+  grid-template-rows: auto;
+  isolation: isolate;
+}
+
+.GridStudents h2 {
+  padding-top: 20px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 25px;
+}
