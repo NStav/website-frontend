@@ -116,12 +116,12 @@ export default function OurProjectComponent() {
 			<div className="Footer">
 				<div className="FooterContent">
 					<h1>Follow Us on Social Media</h1>
-					<div className="SocialImg"><img style ={{width: 35, height: 35}}img src={LinkedinLogo} alt="Redback LinkedIn" /> <p>LinkedIn</p></div>
-                	<div className="SocialImg"><img style ={{width: 35, height: 35}}img src={instagramLogo} alt="Redback Instagram" /> <p>Instagram</p></div>
-                	<div className="SocialImg"><img style ={{width: 35, height: 35}}img src={twitterLogo} alt="Redback Twitter" /> <p>Twitter</p></div>
-					<p1> © 2023, Redback Operations </p1>
+				  	<div className="SocialImg"><p><img src={LinkedinLogo} alt="Redback LinkedIn"/>LinkedIn</p></div>
+					<div className="SocialImg"><p><img src={instagramLogo} alt="Redback Instagram"/>Instagram</p></div>
+					<div className="SocialImg"><p><img src={twitterLogo} alt="Redback Twitter"/>Twitter</p></div>
+					<h2> © 2023, Redback Operations </h2>
 				</div>
-			</div>
+      		</div>
 	  </div>
 	);
 }

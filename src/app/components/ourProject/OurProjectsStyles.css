@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  
+
 }
 
 .LogoImg{
@@ -40,11 +40,9 @@ isolation: isolate;
 
 
 .Footer{ 
-  height: auto;
-  justify-content: center;
   background-color: #424040;
-  margin-top: -16px;
-  margin-bottom: -16px;
+  position: relative;
+  top: -20px;
 }
 
 .FooterContent h1{
@@ -52,37 +50,39 @@ isolation: isolate;
   font-style: normal;
   font-weight: 700;
   font-size: 30px;
-  line-height: 100px;
   color: #ffffff;
   text-align: center;
+  position: relative;
+  
 }
 
-.FooterContent p{
+.FooterContent h2{
   
   font-style: normal;
   font-weight: 600;
   font-size: 27px;
   color: #ffffff;
   text-align: center;
-  margin-right: 200px;
-}
-
-.FooterContent p1{
+  position: relative;
+  top: -20px;
   
-  font-style: normal;
-  font-weight: 500;
-  font-size: 25px;
-  line-height: 100px;
-  color: #ffffff;
-  text-align: center;
-  margin-left: 800px;
 }
 
-.SocialImg {
-  display: flex;
-  width: 300px;
-  margin-left: 880px;
+
+.SocialImg{
+  
+  text-align: center;
+  font-size: 27px;
+  font-weight: 800px;
 }
+
+.SocialImg img{
+  width: 35px;
+  height: 35px;
+  vertical-align:text-top
+}
+
+
 
 .BgSunCycle{
   position: relative;
