@@ -13,7 +13,8 @@ import CommunityComponent from "./components/community/CommunityComponent";
 import TutorialComponent from "./components/tutorial/TutorialComponent";
 import GlobalStateProvider from "./stores/GlobalStateProvider";
 import ExerciseEverydayComponent from "./components/exerciseEveryday/ExerciseEverydayComponent";
-
+import AnalyticsComponent from "./components/analytics/AnalyticsComponent";
+import ProjectOrionComponent from "./components/projectOrion/ProjectOrionComponent";
 
 function App() {
   return (
@@ -30,6 +31,8 @@ function App() {
         <Route path="/community" component={CommunityComponent} />
         <Route path="/tutorial" component={TutorialComponent} />
         <Route path="/exerciseEveryday" component={ExerciseEverydayComponent} />
+        <Route path="/analytics" component={AnalyticsComponent} />
+        <Route path="/projectOrion" component={ProjectOrionComponent} />
       </Grid>
     </GlobalStateProvider>
   );
