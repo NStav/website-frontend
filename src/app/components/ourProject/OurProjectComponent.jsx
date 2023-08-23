@@ -112,6 +112,13 @@ export default function OurProjectComponent() {
 					</p>
 				</div>
 
+				<div className="BgProjectOrion">
+					<h1>Project Orion</h1>
+					<p>
+						This project aims to revolutionise tracking technology for tracking in sporting situations and events with an inspired approach to wearble technology.
+					</p>
+				</div>
+
 			</div>
 			<div className="Footer">
 				<div className="FooterContent">

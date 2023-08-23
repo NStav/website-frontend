@@ -278,3 +278,18 @@ isolation: isolate;
   inset: 0;
   opacity: 0.3;
 }
+
+.BgProjectOrion{
+  position: relative;
+  background-color: #695761;
+}
+
+.BgProjectOrion::before{
+  content: "";
+  background-image: url("./img/graphs.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  inset: 0;
+  opacity: 0.3;
+}
