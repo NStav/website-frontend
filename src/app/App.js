@@ -15,6 +15,7 @@ import GlobalStateProvider from "./stores/GlobalStateProvider";
 import ExerciseEverydayComponent from "./components/exerciseEveryday/ExerciseEverydayComponent";
 import AnalyticsComponent from "./components/analytics/AnalyticsComponent";
 import ProjectOrionComponent from "./components/projectOrion/ProjectOrionComponent";
+import ProductsComponent from "./components/products/ProductsComponent";
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
         <Route path="/exerciseEveryday" component={ExerciseEverydayComponent} />
         <Route path="/analytics" component={AnalyticsComponent} />
         <Route path="/projectOrion" component={ProjectOrionComponent} />
+        <Route path="/products" component={ProductsComponent} />
       </Grid>
     </GlobalStateProvider>
   );
