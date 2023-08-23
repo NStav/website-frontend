@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    
+}
+
+.ProductBackground {
+    background: linear-gradient(#561F4D, #390F4A );
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+
+.ProductTitle {
+    text-align: middle;
+    font-size: 30px;
+}
+
+
+.ProductItem h1{
+    font-size: 50px;
+    margin-left: 20px;
+}
+
+.ProductItem p {
+    font-size: 30px;
+    display: flex;
+    text-align: center;
+}
+
+.ProductItem img {
+    width: 50%;
+    vertical-align: middle;
+    
+}
+
+.ProductButton {
+    display: flex;
+}
