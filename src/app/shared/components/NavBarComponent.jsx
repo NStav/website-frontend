@@ -259,7 +259,7 @@ const NavBarComponent = () => {
             sx={{ mx: 8, color: "black", display: "block", marginLeft: "" }}
             exact
             component={NavLink}
-            to="/"
+            to="/products"
           >
             Products
           </Button>
@@ -279,9 +279,9 @@ const NavBarComponent = () => {
             sx={{ mx: 8, color: "black", display: "block", marginLeft: "" }}
             exact
             component={NavLink}
-            to="/"
+            to="/analytics"
           >
-            Workouts
+            Analytics
           </Button>
           <Button
             style={{
