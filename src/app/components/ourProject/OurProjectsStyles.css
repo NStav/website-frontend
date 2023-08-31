@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-
+  
 }
 
 .LogoImg{
@@ -39,54 +39,11 @@ isolation: isolate;
 }
 
 
-.Footer{ 
-  background-color: #424040;
-  position: relative;
-  top: -20px;
-}
-
-.FooterContent h1{
-  
-  font-style: normal;
-  font-weight: 700;
-  font-size: 30px;
-  color: #ffffff;
-  text-align: center;
-  position: relative;
-  
-}
-
-.FooterContent h2{
-  
-  font-style: normal;
-  font-weight: 600;
-  font-size: 27px;
-  color: #ffffff;
-  text-align: center;
-  position: relative;
-  top: -20px;
-  
-}
-
-
-.SocialImg{
-  
-  text-align: center;
-  font-size: 27px;
-  font-weight: 800px;
-}
-
-.SocialImg img{
-  width: 35px;
-  height: 35px;
-  vertical-align:text-top
-}
-
-
-
 .BgSunCycle{
   position: relative;
   background-color: #847677;
+  height: 200px;
+  margin-bottom: 25px;
 }
 
 .BgSunCycle::before{
@@ -102,6 +59,8 @@ isolation: isolate;
 .BgSmartBike{
   position: relative;
   background-color: #7B6D70;
+  height: 200px;
+  margin-bottom: 25px;
 }
 
 .BgSmartBike::before{
@@ -117,6 +76,8 @@ isolation: isolate;
 .BgMobileApp{
   position: relative;
   background-color: #77676C;
+  height: 200px;
+  margin-bottom: 25px;
 }
 
 .BgMobileApp::before{
@@ -132,6 +93,8 @@ isolation: isolate;
 .BgFrontEnd{
   position: relative;
   background-color: #6F5E66;
+  height: 200px;
+  margin-bottom: 25px;
 }
 
 .BgFrontEnd::before{
@@ -147,6 +110,8 @@ isolation: isolate;
 .BgGit{
   position: relative;
   background-color: #6B5862;
+  height: 200px;
+  margin-bottom: 25px;
 }
 
 .BgGit::before{
@@ -162,6 +127,8 @@ isolation: isolate;
 .BgTableau{
   position: relative;
   background-color: #695761;
+  height: 200px;
+  margin-bottom: 25px;
 }
 
 .BgTableau::before{
@@ -177,6 +144,8 @@ isolation: isolate;
 .BgDesign{
   position: relative;
   background-color: #634F5C;
+  height: 200px;
+  margin-bottom: 25px;
 }
 
 .BgDesign::before{
@@ -192,6 +161,8 @@ isolation: isolate;
 .BgPosture{
   position: relative;
   background-color: #5E4959;
+  height: 200px;
+  margin-bottom: 25px;
 }
 
 .BgPosture::before{
@@ -207,6 +178,8 @@ isolation: isolate;
 .BgConsumption{
   position: relative;
   background-color: #594355;
+  height: 200px;
+  margin-bottom: 25px;
 }
 
 .BgConsumption::before{
@@ -222,6 +195,8 @@ isolation: isolate;
 .BgPrediction{
   position: relative;
   background-color: #6A4766;
+  height: 200px;
+  margin-bottom: 25px;
 }
 
 .BgPrediction::before{
@@ -237,6 +212,8 @@ isolation: isolate;
 .BgMobile{
   position: relative;
   background-color: #623E62;
+  height: 200px;
+  margin-bottom: 25px;
 }
 
 .BgMobile::before{
@@ -252,6 +229,8 @@ isolation: isolate;
 .BgWebDesign{
   position: relative;
   background-color: #5A355C;
+  height: 200px;
+  margin-bottom: 25px;
 }
 
 .BgWebDesign::before{
@@ -267,6 +246,8 @@ isolation: isolate;
 .BgSecurity{
   position: relative;
   background-color: #512B57;
+  height: 200px;
+  margin-bottom: 25px;
 }
 
 .BgSecurity::before{
@@ -282,6 +263,7 @@ isolation: isolate;
 .BgProjectOrion{
   position: relative;
   background-color: #695761;
+  height: 200px;
 }
 
 .BgProjectOrion::before{
