@@ -10,23 +10,26 @@ import LinkedinLogo from "./img/LinkedinLogo.png"
 import instagramLogo from "./img/instagramLogo.png"
 import twitterLogo from "./img/twitterLogo.png"
 
+
+
 export default function HomepageComponent() {
   return (
     <div>
       <div className="HomeContent">
-        <h1>WELCOME TO REDBACK OPERATIONS!</h1>
-        <div className="RedbackLogo"><img style ={{width: 350}} img src = {Logo} alt="RedbackLogo"/></div>
+        <h1>WELCOME TO REDBACK OPERATIONS! <img src={Logo} alt="Wearable technology"/></h1>
         <div className="HomeBackgroundSunset">
         <div className="HomeProjectGrid">
-            <div className="HomeProjectObject"><h1>Project 1</h1><p>Smart Bike Project</p><img style ={{width: 200}} img src = {cycle} alt="CyclingIcon"/></div>
-            <div className="HomeProjectObject"><h1>Project 2</h1><p>Project Sun Cycle</p><img style ={{width: 200}} img src = {VR} alt="VRIcon"/></div>
-            <div className="HomeProjectObject"><h1>Project 3</h1><p>Mobile App</p><img style ={{width: 200}} img src = {phone} alt="PhoneIcon"/></div>
-            <div className="HomeProjectObject"><p>Running</p><img style ={{width: 200}} img src = {running} alt="RunningIcon"/></div>
-            <div className="HomeProjectObject"><p>Cycling</p><img style ={{width: 200}} img src = {cycle} alt="CyclingaIcon"/></div>
-            <div className="HomeProjectObject"><p>Sports</p><img style ={{width: 200}} img src = {controller} alt="ControllerIcon"/></div>
+            <div className="HomeProjectObject"><p>Smart Bike Project</p><img src = {cycle} alt="CyclingIcon"/></div>
+            <div className="HomeProjectObject"><p>Project Sun Cycle</p><img src = {VR} alt="VRIcon"/></div>
+            <div className="HomeProjectObject"><p>Mobile App</p>< img src = {phone} alt="PhoneIcon"/></div>
+          </div>
+          <div className="HomeProjectGrid">
+            <div className="HomeProjectObject"><p>Running</p>< img src = {running} alt="RunningIcon"/></div>
+            <div className="HomeProjectObject"><p>Cycling</p>< img src = {cycle} alt="CyclingIcon"/></div>
+            <div className="HomeProjectObject"><p>Sports</p>< img src = {controller} alt="ControllerIcon"/></div>
           </div>
         </div>
-        <h2>Welcome to  our website where it shows what we are planning for the future related to exercising!</h2>
+        <h2>Welcome to our website where it shows what we are planning for the future related to exercising!</h2>
         <h3>Our Projects</h3>
         <div className="HomeProjectsContent">
           <div className="MissionBackground">
@@ -55,12 +58,12 @@ export default function HomepageComponent() {
       <div className="Footer">
 				<div className="FooterContent">
 					<h1>Follow Us on Social Media</h1>
-				  <div className="SocialImg"><img style ={{width: 35, height: 35}}img src={LinkedinLogo} alt="Redback LinkedIn" /> <p>LinkedIn</p></div>
-          <div className="SocialImg"><img style ={{width: 35, height: 35}}img src={instagramLogo} alt="Redback Instagram" /> <p>Instagram</p></div>
-          <div className="SocialImg"><img style ={{width: 35, height: 35}}img src={twitterLogo} alt="Redback Twitter" /> <p>Twitter</p></div>
-					<p1> © 2023, Redback Operations </p1>
+				  <div className="SocialImg"><p><img src={LinkedinLogo} alt="Redback LinkedIn"/>LinkedIn</p></div>
+          <div className="SocialImg"><p><img src={instagramLogo} alt="Redback Instagram"/>Instagram</p></div>
+          <div className="SocialImg"><p><img src={twitterLogo} alt="Redback Twitter"/>Twitter</p></div>
+					<h2> © 2023, Redback Operations </h2>
 				</div>
-			</div>
+      </div>
     </div>
   );
 }
