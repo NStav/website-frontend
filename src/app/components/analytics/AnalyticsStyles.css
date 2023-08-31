@@ -19,25 +19,24 @@
 }
 
 .AnalyticsGrid{
-    display: grid;
+    font-size: 35px;
+    color: rgb(0, 0, 0);
+    display: flex;
     justify-content: center;
-    grid-template-columns: repeat(3, 200px);
-    grid-template-rows: repeat(2, 600px);
-    column-gap: 300px;
-    position: relative;
-    top: 100px;
-    left: -80px;
+    
 }
 
 .AnalyticsGridObject{
-    display: grid;
-    margin: 20px;
     background-color: #424141;
     padding: 10px;
     border-radius: 20px;
     text-align: center;
     height: 350px;
     width: 350px;
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: block
 }
 
 .AnalyticsGridObject h1{
@@ -53,4 +52,5 @@
     font-weight: 600;
     font-size: 40px;
     color: #ffffff;
+    margin-top: 60px;
 }
