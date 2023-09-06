@@ -52,8 +52,8 @@ export default function AnalyticsComponent() {
 					<div className="SocialImg"><p><img src={instagramLogo} alt="Redback Instagram"/>Instagram</p></div>
 					<div className="SocialImg"><p><img src={twitterLogo} alt="Redback Twitter"/>Twitter</p></div>
 					<h2> © 2023, Redback Operations </h2>
-				  </div>
-      	</div>
+				</div>
+      </div>
   </div>
   );
 }

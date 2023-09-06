@@ -84,7 +84,6 @@ export default function AnalyticsComponent() {
               <img src={VRheadset} alt="VR headset"/>
               Project Suncycle is a Virtual Reality based game which is played in combination with an exercise bike. It is a single player experience where the player is able to explore and travel acros the post-apocalyptic tribal world completing quests. It is a 
               fun and immersive experience which will make exercise in the comfort of your own home fun and motivating.
-              
             </p>
             <div className="ProductButton">
             <Button

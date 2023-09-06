@@ -51,11 +51,12 @@
     font-size: 35px;
     display: flex;
     text-align: center;
+    align-items: center;
 }
 
 .ProjectOrionPurpose img {
     width: 50%;
-    vertical-align: middle;
+    
 }
 
 .ProjectOrionWork h1{
@@ -66,11 +67,12 @@
 
 .ProjectOrionWork img {
     width: 50%;
-    vertical-align: middle;
+    
 }
 
 .ProjectOrionWork p {
     font-size: 35px;
     display: flex;
     text-align: center;
+    align-items: center;
 }

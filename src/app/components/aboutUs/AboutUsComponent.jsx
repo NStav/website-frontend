@@ -20,18 +20,13 @@ export default function AboutUsComponent() {
     <div>
       <div className="AboutUsContent">
         <div className="AboutUs">
-            <p>
-              <br/> <br/> <br/> <br/>
-            </p>
             <h1>ABOUT US</h1>
             <p>
               Redback Operations creates technology for linked health, fitness, and sport in order to promote safe smart action. It aspires to provide a competitive, community-driven,
               fitness and wellness gaming experience.
-              <br/> <br/> <br/> <br/>
             </p>
+            <img src={ManRunning} alt="Man Running"/>
         </div>
-        <div className="ManRunning"><img style ={{width: 1903, height: 708}} img src={ManRunning} alt="Man Running"/></div>
-        
         <div className="DirectorsStudentContainer">
               <div className="GridStyle">
                   <h3 className="DirectorsHeading">Board of Directors</h3>
@@ -52,17 +47,17 @@ export default function AboutUsComponent() {
                   </div>
               </div>
           </div>
-          <div className="Cyclist"><img style ={{width: 1903, height: 1269}} img src={Cyclist} alt="Cyclist"/></div>
+          <div className="Cyclist">< img src={Cyclist} alt="Cyclist"/></div>
       </div>
       <div className="Footer">
 				<div className="FooterContent">
 					<h1>Follow Us on Social Media</h1>
-					<div className="SocialImg"><img style ={{width: 35, height: 35}}img src={LinkedinLogo} alt="Redback LinkedIn" /> <p>LinkedIn</p></div>
-          <div className="SocialImg"><img style ={{width: 35, height: 35}}img src={instagramLogo} alt="Redback Instagram" /> <p>Instagram</p></div>
-          <div className="SocialImg"><img style ={{width: 35, height: 35}}img src={twitterLogo} alt="Redback Twitter" /> <p>Twitter</p></div>
-					<p1> © 2023, Redback Operations </p1>
+				  <div className="SocialImg"><p><img src={LinkedinLogo} alt="Redback LinkedIn"/>LinkedIn</p></div>
+          <div className="SocialImg"><p><img src={instagramLogo} alt="Redback Instagram"/>Instagram</p></div>
+          <div className="SocialImg"><p><img src={twitterLogo} alt="Redback Twitter"/>Twitter</p></div>
+					<h2> © 2023, Redback Operations </h2>
 				</div>
-			</div>
+      </div>
     </div>
     
   );
