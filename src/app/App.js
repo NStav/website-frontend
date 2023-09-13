@@ -16,6 +16,9 @@ import ExerciseEverydayComponent from "./components/exerciseEveryday/ExerciseEve
 import AnalyticsComponent from "./components/analytics/AnalyticsComponent";
 import ProjectOrionComponent from "./components/projectOrion/ProjectOrionComponent";
 import ProductsComponent from "./components/products/ProductsComponent";
+import CrowdAnalyticsComponent from "./components/crowdAnalytics/CrowdAnalyticsComponent";
+import SmartBikeComponent from "./components/smartBike/SmartBikeComponent";
+import SunCycleComponent from "./components/sunCycle/SunCycleComponent";
 
 function App() {
   return (
@@ -35,6 +38,9 @@ function App() {
         <Route path="/analytics" component={AnalyticsComponent} />
         <Route path="/projectOrion" component={ProjectOrionComponent} />
         <Route path="/products" component={ProductsComponent} />
+        <Route path="/crowdAnalytics" component={CrowdAnalyticsComponent} />
+        <Route path="/smartBike" component={SmartBikeComponent} />
+        <Route path="/sunCycle" component={SunCycleComponent} />
       </Grid>
     </GlobalStateProvider>
   );
