@@ -71,7 +71,7 @@ export default function AnalyticsComponent() {
                 variant="contained"
                 onClick={handleCloseNavMenu}
                 component={NavLink}
-                to="/products"
+                to="/smartBike"
               >
                 Learn More
               </Button>
@@ -111,7 +111,7 @@ export default function AnalyticsComponent() {
                 variant="contained"
                 onClick={handleCloseNavMenu}
                 component={NavLink}
-                to="/products"
+                to="/sunCycle"
               >
                 Learn More
               </Button>
