@@ -30,6 +30,24 @@ export default function AnalyticsComponent() {
           <div className="AnalyticsGridObject"> <h1>Incline</h1> <p>{data.Incline}</p> </div>
           <div className="AnalyticsGridObject"> <h1>Duration</h1> <p>{data.Duration}</p> </div>
         </div>
+        <div className="CrowdButton">
+          <Button
+                style={{
+                  backgroundColor: "#E87461",
+                  padding: "18px 36px",
+                  fontSize: 30,
+                  fontWeight: 900,
+                }}
+                
+                variant="contained"
+                onClick={handleCloseNavMenu}
+                exact
+                component={NavLink}
+                to="/crowdAnalytics"
+                >
+                Crowd Analytics
+              </Button>
+        </div>
         <br/>
       </div>
       <div className="Footer">
