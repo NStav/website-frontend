@@ -16,3 +16,70 @@
     font-size: 80px;
     text-align: center;
 }
+
+.SunCycleOverview{
+    display: block;
+}
+
+.SunCycleOverview h1{
+    
+    text-align: center;
+    font-size: 60px;
+    font-weight: 700;
+    margin-left: 25px;
+    margin-bottom: 50px;
+}
+
+.SunCycleOverview p{
+    font-size: 30px;
+    display: flex;
+    text-align: left;
+    align-items: center;
+    margin-left: 25px;
+}
+
+.SunCycleOverview img{
+    width: 45%;
+}
+
+.SunCyclePurpose h1{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.SunCyclePurpose p{
+    text-align: center;
+    font-size: 30px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 50px;
+}
+
+.SunCycleHowItWorks{
+    display: block;
+    margin-top: 25px;
+}
+
+.SunCycleHowItWorks h1{
+    text-align: center;
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.SunCycleHowItWorks p{
+   
+    font-size: 30px;
+    display: flex;
+    text-align: left;
+    align-items: center;
+    margin-right: 25px;
+}
+
+.SunCycleHowItWorks img{
+    width: 45%;
+    margin-right: 25px;
+}
