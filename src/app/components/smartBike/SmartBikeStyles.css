@@ -59,11 +59,11 @@
     margin-bottom: 50px;
 }
 
-.HowItWorks{
+.SmartBikeHowItWorks{
     display: block;
 }
 
-.HowItWorks h1{
+.SmartBikeHowItWorks h1{
     
     text-align: center;
     font-size: 60px;
@@ -72,7 +72,7 @@
     margin-bottom: 50px;
 }
 
-.HowItWorks p{
+.SmartBikeHowItWorks p{
     font-size: 30px;
     display: flex;
     text-align: left;
@@ -80,6 +80,6 @@
     margin-left: 25px;
 }
 
-.HowItWorks img{
+.SmartBikeHowItWorks img{
     width: 45%;
 }

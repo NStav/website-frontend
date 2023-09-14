@@ -32,14 +32,14 @@ export default function AnalyticsComponent() {
           </p>
         </div>
         <div className="SmartBikePurpose">
-          <h1>Purpose</h1>
+          <h1>PURPOSE</h1>
           <p> This project aims to solve some of the major problems of exercising, such as convenience and motivation. Poor weather conditions such as freezing cold, pouring rain
             or extreme heat and harsh sun make keeping up with exercise plans and fitness goals all year round very difficult, especially when it comes to cycling as physical 
             environment and traffic also have to be taken into account. With our Smart Bike we aim to circumvent these issues by allowing for convient and accesible exercise in your
             own home while also being able to track, plan and achieve tangible exercise goals while gamifying exericse and making it fun.
           </p>
         </div>
-        <div className="HowItWorks"> 
+        <div className="SmartBikeHowItWorks"> 
           <h1>HOW IT WORKS</h1>
           <p>
             The Smart Bike is able to measure and track speed, cadence, power readings, heart rate readings from a chest strap and manipulate resistance and incline of the bike. 
