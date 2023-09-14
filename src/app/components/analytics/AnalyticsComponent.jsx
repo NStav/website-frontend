@@ -21,7 +21,7 @@ export default function AnalyticsComponent() {
           <h1>Your Statistics</h1>
         </div>
         <div className="AnalyticsGrid">
-          <div className="AnalyticsGridObject"> <h1>Distace</h1> <p>{data.Distance}</p> </div>
+          <div className="AnalyticsGridObject"> <h1>Distance</h1> <p>{data.Distance}</p> </div>
           <div className="AnalyticsGridObject"> <h1>Average BPM</h1> <p>{data.Average_BPM}</p> </div>
           <div className="AnalyticsGridObject"> <h1>BPM Peak</h1> <p>{data.BPM_Peak}</p> </div>
         </div>
