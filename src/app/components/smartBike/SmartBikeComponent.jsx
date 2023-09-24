@@ -43,7 +43,7 @@ export default function AnalyticsComponent() {
           <h1>HOW IT WORKS</h1>
           <p>
             The Smart Bike is able to measure and track speed, cadence, power readings, heart rate readings from a chest strap and manipulate resistance and incline of the bike. 
-            The tracked exercises data is received via Bluetooth using a Raspberry Pi and submitted bia MQTT allowing for the data to be dsitributed to the Flutter mobile application.
+            The tracked exercises data is received via Bluetooth using a Raspberry Pi and submitted bia MQTT allowing for the data to be distributed to the Flutter mobile application.
             The mobile application will display all the gathered data while also providing an interface for starting, stopping and managing exercise, such as allowing for the changing
             of intensity.
             <img src={IoT} alt="Iot"/>
